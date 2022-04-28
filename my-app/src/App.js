@@ -6,16 +6,18 @@ import Home from './components/Home'
 import Signup from './components/Signup'
 import Blog from './components/Blog'
 
+
 function App() {
+
   return (
     <div>
       <Routes>
-        <Route path='*' element={<Home/>}/>
+        <Route path='*' element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup/>}/>
-        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/blog' element={<Blog />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
