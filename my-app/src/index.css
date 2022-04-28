@@ -67,24 +67,24 @@ display: flex;
 }
 .table_of_content{
    width: 220px;
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(242, 242, 242);
    height: 100%;
    border-right: 1px solid rgb(215, 215, 215);
-   padding-top: 20px;
+   padding-top: 15px;
    color: rgb(118, 12, 128);
-   font-weight: 500;
+   font-weight: 550;
 }
  ul {
   list-style: none;
 } 
 ul li{
   margin-left: -1em;
-
   margin-top: 10px;
+  color: rgb(139, 139, 139);
 }
 .content__heading{
   margin-left: 15px;
-  font-size: 20px;
+  font-size: 24px;
 }
 .bulb{
   width: 30px;
@@ -234,6 +234,7 @@ ul li{
 }
 .main__second{
   display: flex;
+  padding-top: 3px;
 }
 .nav{
   align-items: center;

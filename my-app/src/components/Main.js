@@ -35,9 +35,9 @@ function Main() {
         <div className={dark ? "main dark" : "main"}>
             <div className='main__container'>
             <div className='main__second'>
-            {/* <div className='main__left'>
+             <div className='main__left'>
            <TableOfContent/>
-            </div> */}
+            </div> 
             <div className='main__right'>
             <h1 className='featured__tutorials'>Featured Tutorials</h1>
             <div className='product__details'>{proDetails}</div>
