@@ -1,0 +1,306 @@
+.product__details{
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.footer{
+  
+  bottom:0;
+  width:100%;
+  height:100px;  
+  background:rgb(255, 247, 228);
+  text-align: center;
+  border-top: 1px solid rgb(195, 195, 195);
+}
+.featured__tutorials{
+  color: rgb(118, 12, 128);
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.trending__technologies{
+  color: rgb(118, 12, 128);
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.trending__details{
+  display: flex;
+  gap: 40px;
+  padding: 50px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.main{
+  display: flex;
+}
+.main_bottom_card{
+display: flex;
+}
+.latest__up{
+  display: flex;
+  flex-direction: column;
+}
+.web__tech{
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(212, 212, 212);
+}
+.latest__updates{
+  color: rgb(118, 12, 128);
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.web__technology{
+  color: rgb(118, 12, 128);
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.main__left{
+  border-right: 1px solid rgb(242, 242, 242);
+}
+.table_of_content{
+   width: 190px;
+   background-color: rgb(240, 240, 240);
+   height: 100%;
+}
+ ul {
+  list-style: none;
+} 
+ul li{
+  margin-left: -1em;
+  color: rgb(7, 5, 5);
+  margin-top: 10px;
+}
+.content__heading{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.bulb{
+  width: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.dark__bulb{
+  width: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+  background-color: white;
+  color: white;
+}
+.dark{
+  background-color: rgb(31, 29, 29);
+  color: aliceblue;
+}
+.blog{
+  height: 100vh;
+}
+.login__form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(220, 220, 220);
+  width: 290px;
+  height:330px;
+  padding:35px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 3px 2px gray;
+}
+.signup__form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(220, 220, 220);
+  width: 290px;
+  height:400px;
+  padding:35px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 3px 2px gray;
+}
+.email{
+  width: 220px;
+  text-indent: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.password{
+  width: 220px;
+  text-indent: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.username{
+  width: 220px;
+  text-indent: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.number{
+  width: 220px;
+  text-indent: 15px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.login__btn{
+  width: 220px;
+  background-color: black;
+  color: white;
+  border: 1px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.signup__btn{
+  width: 220px;
+  background-color: black;
+  color: white;
+  border: 1px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(198, 198, 198);
+}
+.login{
+  height: 100vh;
+  width: 100%;
+  padding-left: 550px;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-color: rgb(153, 217, 246);
+
+}
+.signup{
+  height: 100vh;
+  padding-left: 550px;
+  padding-top: 100px;
+  background-color: rgb(153, 217, 246);
+}
+.signup__heading{
+  margin-left: 70px;
+}
+.login__heading{
+  margin-left: 80px;
+}
+
+.new__account{
+  font-size: 13px;
+  margin-left:98px;
+  width: 500px;
+  margin-top: 20px;
+  cursor: pointer;
+ 
+}
+.already__account{
+  font-size: 13px;
+  margin-left:71px;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+.forgot__password{
+  font-size: 13px;
+  margin-left:115px;
+  width: 500px;
+}
+.new_account_link{
+  text-decoration: none;
+  color: black;
+}
+.already_account_link{
+  text-decoration: none;
+  color: black;
+}
+.main__container{
+  display: flex;
+  flex-direction: column;
+}
+.main__second{
+  display: flex;
+}
+.nav{
+  align-items: center;
+  border-bottom: 1px solid rgb(237, 236, 236);
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(253, 249, 242);
+}
+.nav__container{
+  height: 400px;
+  background-image: url("hill.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 650px;
+  box-shadow: 6px 2px 1px rgb(233, 233, 233);
+}
+.nav__home{
+  margin-left:20px;
+  text-decoration: none;
+  color: rgb(139, 143, 144);
+  font-weight: 500;
+}
+.nav__new{
+  margin-left:20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(139, 143, 144);
+}
+.nav__help{
+  margin-left:20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(139, 143, 144)
+}
+.nav__search{
+  margin-left:550px;
+  text-indent: 15px;
+  border-radius: 15px;
+  border: 1px solid rgb(190, 190, 190);
+}
+.nav__login{
+  margin-left:20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(139, 143, 144);
+}
+.nav__title{
+  margin-left: 60px;
+  font-size: 25px;
+  color: rgb(222, 158, 19);
+}
+.nav__para{
+  margin-left: 100px;
+  color: black;
+}
+.get__started{
+margin-left: 100px;
+
+color: black;
+}
+.get_started_btn{
+  margin-left: 100px;
+  border: 2px solid rgb(197, 197, 197)
+}
+.contact_us_btn{
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 2px solid rgb(197, 197, 197)
+}
+.light__bulb{
+  width: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.black__bulb{
+  width: 30px;
+  margin-left: 20px;
+  background-color: rgb(255, 250, 222);
+}
+.nav__bottom{
+  position: absolute;
+  margin-top: 90px;
+}
