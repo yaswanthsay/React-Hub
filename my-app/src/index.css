@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Merienda&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&display=swap');
+
 .product__details{
   display: flex;
   gap: 40px;
@@ -5,13 +7,14 @@
   border-bottom: 1px solid rgb(212, 212, 212);
 }
 .footer{
-  
+  font-family: 'Poppins';
   bottom:0;
   width:100%;
-  height:100px;  
-  background:rgb(255, 247, 228);
+  height:50px;  
+  background-image: url("skyblue.jpg");
   text-align: center;
   border-top: 1px solid rgb(195, 195, 195);
+  color: white;
 }
 .featured__tutorials{
   color: rgb(118, 12, 128);
@@ -33,6 +36,7 @@
 }
 .main{
   display: flex;
+  font-family: 'Poppins';
 }
 .main_bottom_card{
 display: flex;
@@ -62,16 +66,20 @@ display: flex;
   border-right: 1px solid rgb(242, 242, 242);
 }
 .table_of_content{
-   width: 190px;
-   background-color: rgb(240, 240, 240);
+   width: 220px;
+   background-color: rgb(255, 255, 255);
    height: 100%;
+   border-right: 1px solid rgb(215, 215, 215);
+   padding-top: 20px;
+   color: rgb(118, 12, 128);
+   font-weight: 500;
 }
  ul {
   list-style: none;
 } 
 ul li{
   margin-left: -1em;
-  color: rgb(7, 5, 5);
+
   margin-top: 10px;
 }
 .content__heading{
@@ -102,7 +110,7 @@ ul li{
   flex-direction: column;
   border: 1px solid rgb(220, 220, 220);
   width: 290px;
-  height:330px;
+  height:400px;
   padding:35px;
   background-color: white;
   border-radius: 20px;
@@ -113,7 +121,7 @@ ul li{
   flex-direction: column;
   border: 1px solid rgb(220, 220, 220);
   width: 290px;
-  height:400px;
+  height:530px;
   padding:35px;
   background-color: white;
   border-radius: 20px;
@@ -121,47 +129,53 @@ ul li{
 }
 .email{
   width: 220px;
+  height: 47px;
   text-indent: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
 .password{
   width: 220px;
+  height: 47px;
   text-indent: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
 .username{
   width: 220px;
+  height: 47px;
   text-indent: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
 .number{
   width: 220px;
+  height: 47px;
   text-indent: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
 .login__btn{
   width: 220px;
+  height: 47px;
   background-color: black;
   color: white;
   border: 1px;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
 .signup__btn{
   width: 220px;
+  height: 47px;
   background-color: black;
   color: white;
   border: 1px;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 20px;
   border: 1px solid rgb(198, 198, 198);
 }
@@ -172,10 +186,9 @@ ul li{
   padding-top: 100px;
   background-repeat: no-repeat;
   background-color: rgb(153, 217, 246);
-
 }
 .signup{
-  height: 100vh;
+  height: 100%;
   padding-left: 550px;
   padding-top: 100px;
   background-color: rgb(153, 217, 246);
@@ -224,83 +237,147 @@ ul li{
 }
 .nav{
   align-items: center;
-  border-bottom: 1px solid rgb(237, 236, 236);
+  border-bottom: 1px solid rgb(150, 150, 150);
   position: fixed;
   width: 100%;
   height: 50px;
-  background-color: rgb(253, 249, 242);
+  font-family: 'Poppins';
+  
+  z-index: 1;
 }
 .nav__container{
-  height: 400px;
-  background-image: url("hill.jpg");
+  height:500px;
+
+   background-image: url("coding.jpg"); 
   background-repeat: no-repeat;
   background-size:100% 650px;
-  box-shadow: 6px 2px 1px rgb(233, 233, 233);
+  box-shadow: 6px 2px 1px rgb(169, 168, 168);
 }
 .nav__home{
   margin-left:20px;
   text-decoration: none;
-  color: rgb(139, 143, 144);
+  color: rgb(255, 255, 255);
   font-weight: 500;
+  
+  width: 60px;
+  height: 35px;
+  padding-top: 5px;
+  padding-left: 5px;
+  
 }
 .nav__new{
   margin-left:20px;
   text-decoration: none;
-  font-weight: 500;
-  color: rgb(139, 143, 144);
+ 
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-left: 7px;
+  width: 125px;
+  height: 35px;
+ 
+ 
 }
 .nav__help{
   margin-left:20px;
   text-decoration: none;
-  font-weight: 500;
-  color: rgb(139, 143, 144)
+  
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-left: 16px;
+  width: 125px;
+  height: 35px;
+  
+  
 }
 .nav__search{
-  margin-left:550px;
+  margin-left: 20px;
   text-indent: 15px;
   border-radius: 15px;
   border: 1px solid rgb(190, 190, 190);
 }
 .nav__login{
-  margin-left:20px;
-  font-weight: 500;
+
+  margin-left:8px;
   text-decoration: none;
-  color: rgb(139, 143, 144);
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  width: 55px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 500;
 }
 .nav__title{
   margin-left: 60px;
   font-size: 25px;
-  color: rgb(222, 158, 19);
+  color: rgb(234, 92, 154);
 }
 .nav__para{
-  margin-left: 100px;
-  color: black;
+  margin-left: 200px;
+  color: rgb(255, 255, 255);
+}
+.icon{
+color: rgb(234, 92, 154);
+margin-top: -0.5rem;
+margin-left: 5px;
 }
 .get__started{
-margin-left: 100px;
-
-color: black;
+  margin-top: 70px;
+  font-size:50px;
+  margin-left: 200px;
+  color: rgb(255, 255, 255);
+  
 }
 .get_started_btn{
-  margin-left: 100px;
-  border: 2px solid rgb(197, 197, 197)
+  margin-left: 200px;
+  cursor: pointer;
+ border: 2px solid gray;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
 }
 .contact_us_btn{
   margin-left: 30px;
-  margin-top: 10px;
-  border: 2px solid rgb(197, 197, 197)
+  cursor: pointer;
+  border: 1px solid; 
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
 }
 .light__bulb{
   width: 30px;
-  margin-left: 20px;
+  margin-left: 450px;
   cursor: pointer;
 }
 .black__bulb{
   width: 30px;
-  margin-left: 20px;
-  background-color: rgb(255, 250, 222);
+  margin-left: 450px;
+  background-color: transparent;
 }
 .nav__bottom{
   position: absolute;
   margin-top: 90px;
+}
+.password__error{
+  color: rgb(221, 46, 46);
+  margin-left:95px;
+  font-size: 13px;
+}
+.email__error{
+  font-size: 13px;
+  color: rgb(221, 46, 46);
+  margin-left: 120px;
+}
+.number__error{
+  font-size: 13px;
+  color: rgb(221, 46, 46);
+  margin-left: 105px;
+}
+.username__error{
+  font-size: 13px;
+  color: rgb(221, 46, 46);
+  margin-left: 95px;
 }

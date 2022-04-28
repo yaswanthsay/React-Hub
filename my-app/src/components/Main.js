@@ -41,8 +41,9 @@ function Main() {
             <div className='main__right'>
             <h1 className='featured__tutorials'>Featured Tutorials</h1>
             <div className='product__details'>{proDetails}</div>
+            <div className='trend'>
             <h1 className='trending__technologies'>Trending Technologies</h1>
-            <div className='trending__details'>{trendingDetails}</div>
+            <div className='trending__details'>{trendingDetails}</div></div>
             <div className='main_bottom_card'>
                 <div className='latest__up'><h1 className='latest__updates'>Latest Updates</h1>
                 <div className='trending__details'>{updateDetails}</div></div>

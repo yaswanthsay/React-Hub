@@ -15,7 +15,7 @@ const trendingData = [
         "id":"3",
         "title":"Cloud Computing",
         "url":"https://media.istockphoto.com/photos/cloud-computing-concept-picture-id1314047007?b=1&k=20&m=1314047007&s=170667a&w=0&h=qlvgtG3oSX9zaYh8KxLgRIJlx3XkXUFxT9OkzI6ADew=",
-        "description":"Cloud Computing is most trending now"
+        "description":"Cloud Computing is the technology trending"
     },
     {
         "id":"4",
@@ -27,7 +27,7 @@ const trendingData = [
         "id":"5",
         "title":"Data Science",
         "url":"https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGF0YSUyMHNjaWVuY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-        "description":"Data Science is one of the popular javascript library"
+        "description":"Data Science is more popular"
     }
 ]
 
