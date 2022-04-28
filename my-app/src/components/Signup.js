@@ -1,17 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
-import { useState } from 'react';
+
 
 function Signup() {
 
   const { register, handleSubmit, formState: { errors } } = useForm();
   
 
-  const [signupData,setSignupData] = useState('')
+
 
  
-    const onSubmit = (data) =>{setSignupData(data)}
+    const onSubmit = (data) =>{JSON.stringify(data)}
 
 
   return (
