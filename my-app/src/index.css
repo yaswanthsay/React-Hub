@@ -379,22 +379,7 @@ display: flex;
   margin-top: -0.5rem;
   margin-left: 15px;
   }
-  .get__started {
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
   
-  @keyframes slidein {
-    from {
-      margin-left: 40%;
-      width: 310%;
-    }
-  
-    75% {
-      font-size: 200%;
-      width: 150%;
-    }
-  }
   .new{
     height: 100vh;
   }
@@ -511,7 +496,7 @@ background-color: rgb(251, 245, 238);
   background-image: url("typewhite.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(60%);
+  filter: brightness(70%);
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -523,20 +508,4 @@ background-color: rgb(251, 245, 238);
 }
 .goal__para{
   color: rgb(255, 255, 255);
-}
-.goal__para {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 200%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 26%;
-    width: 100%;
-  }
 }
