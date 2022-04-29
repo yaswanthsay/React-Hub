@@ -13,6 +13,7 @@ export default function MediaCard(props) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
+       className='trending__img'
         component="img"
         height="130"
         image={props.url}

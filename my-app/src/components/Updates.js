@@ -11,6 +11,7 @@ export default function MediaCard(props) {
     return (
         <Card sx={{ maxWidth: 145 }}>
             <CardMedia
+            className='update__img'
                 component="img"
                 height="70"
                 image={props.url}

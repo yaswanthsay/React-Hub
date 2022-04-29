@@ -16,6 +16,7 @@ export default function MediaCard(props) {
     <Card sx={{ maxWidth: 345, maxHeight: 360 }} className='product' >
       <Link to={`/productpage/${props.slug}`}>
         <CardMedia
+        className='product__img'
           component="img"
           height="130"
           image={props.url}

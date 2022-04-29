@@ -509,3 +509,15 @@ display: flex;
 .goal__para{
   color: rgb(255, 255, 255);
 }
+.product__img{
+  border:7px solid white;
+}
+.trending__img{
+  border:7px solid white;
+}
+.web__img{
+  border:5px solid white;
+}
+.update__img{
+  border:5px solid white;
+}
