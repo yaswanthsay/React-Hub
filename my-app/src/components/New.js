@@ -7,15 +7,19 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import axios from 'axios'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 
 export default function BasicTable() {
 
     const [newDatas,setNewDatas] = useState([])
 
+  useEffect(()=>{
     axios.get("https://jsonplaceholder.typicode.com/users")
     .then(res => setNewDatas(res.data))
+  },[])
+
+  
   return (
       <div className='new'>
           <h1 className='new__title'>What's New!</h1>

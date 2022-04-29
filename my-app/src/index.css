@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lora:wght@400;500;600&family=Merienda&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500;600&family=Lora:wght@400;500;600&family=Merienda&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Square+Peg&display=swap');
 
 .product__details{
   display: flex;
@@ -302,14 +302,15 @@ display: flex;
   margin-left: 200px;
   color: rgb(255, 255, 255);
 }
-
+.nav__para2{
+  color: rgb(187, 187, 187);
+  font-size: 13px;
+}
 .get__started{
   margin-top: 70px;
-  font-size:50px;
+  font-size:40px;
   margin-left: 200px;
   color: rgb(255, 255, 255);
-  font-family: 'Caveat';
-
 }
 .get_started_btn{
   margin-left: 200px;
@@ -382,7 +383,7 @@ display: flex;
     }
   
     75% {
-      font-size: 310%;
+      font-size: 250%;
       width: 150%;
     }
   }
@@ -443,4 +444,10 @@ display: flex;
     display: inline-block;  
     width: 1em;  
     margin-left: -1em; 
+  }
+  .product{
+    cursor: pointer;
+  }
+  .product__page{
+    height: 100vh;
   }

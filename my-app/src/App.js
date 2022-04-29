@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Signup from './components/Signup'
 import Blog from './components/Blog'
 import New from './components/New'
+import ProductPage from './pages/ProductPage'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/productpage/:slug' element={<ProductPage/>}/>
       </Routes>
       <Footer />
     </div>
