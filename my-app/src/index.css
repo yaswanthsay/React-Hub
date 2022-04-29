@@ -4,39 +4,41 @@
   display: flex;
   gap: 40px;
   padding: 50px;
-  border-bottom: 1px solid rgb(212, 212, 212);
 }
 .footer{
   font-family: 'Poppins';
   bottom:0;
   width:100%;
   height:50px;  
-  background-color: rgb(78, 68, 68);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   border-top: 1px solid rgb(195, 195, 195);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .featured__tutorials{
-  color: rgb(118, 12, 128);
+  color: rgb(128, 123, 123);
   font-size: 25px;
   margin-left: 50px;
   margin-top: 20px;
+  font-weight: 600;
 }
 .trending__technologies{
-  color: rgb(118, 12, 128);
+  color: rgb(128, 123, 123);
   font-size: 25px;
   margin-left: 50px;
   margin-top: 20px;
+  font-weight: 600;
 }
 .trending__details{
   display: flex;
   gap: 40px;
   padding: 50px;
-  border-bottom: 1px solid rgb(212, 212, 212);
+ 
 }
 .main{
   display: flex;
   font-family: 'Poppins';
+  background-color: rgb(247, 253, 255);
 }
 .main_bottom_card{
 display: flex;
@@ -51,16 +53,18 @@ display: flex;
   border-left: 1px solid rgb(212, 212, 212);
 }
 .latest__updates{
-  color: rgb(118, 12, 128);
+  color: rgb(128, 123, 123);
   font-size: 25px;
   margin-left: 50px;
   margin-top: 20px;
+  font-weight: 600;
 }
 .web__technology{
-  color: rgb(118, 12, 128);
+  color: rgb(128, 123, 123);
   font-size: 25px;
   margin-left: 50px;
   margin-top: 20px;
+  font-weight: 600;
 }
 .main__left{
   border-right: 1px solid rgb(242, 242, 242);
@@ -235,17 +239,18 @@ display: flex;
 }
 .nav{
   align-items: center;
-  border-bottom: 1px solid rgb(150, 150, 150);
+  border-bottom: 1px solid rgb(209, 204, 204);
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 65px;
   font-family: 'Poppins'; 
   z-index: 1;
+  background-color: transparent;
+  box-shadow:2px 2px 15px 1px rgb(164, 164, 164);
 }
 .nav__container{
-  height:500px;
-
-   background-image: url("coding.jpg"); 
+  height:550px;
+   background-image: url("program.jpg"); 
   background-repeat: no-repeat;
   background-size:100% 650px;
   box-shadow: 6px 2px 1px rgb(169, 168, 168);
@@ -294,9 +299,10 @@ display: flex;
   margin-top: -0.6rem;
 }
 .nav__title{
-  margin-left: 30px;
-  font-size: 25px;
-  color: rgb(234, 92, 154);
+  margin-left: 90px;
+  font-size: 20px;
+  color: rgb(193, 79, 128);
+  
 }
 .nav__para{
   margin-left: 200px;
@@ -307,15 +313,16 @@ display: flex;
   font-size: 13px;
 }
 .get__started{
-  margin-top: 70px;
-  font-size:40px;
+  margin-top: 65px;
+  font-size:44px;
   margin-left: 200px;
   color: rgb(255, 255, 255);
+ font-weight: 700;
 }
 .get_started_btn{
   margin-left: 200px;
   cursor: pointer;
- border: 2px solid gray;
+ border: 2px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   background-color: transparent;
   font-size: 15px;
@@ -383,7 +390,7 @@ display: flex;
     }
   
     75% {
-      font-size: 250%;
+      font-size: 200%;
       width: 150%;
     }
   }
@@ -435,7 +442,7 @@ display: flex;
     font-size:20px;
   }
   .blog__list ul {
-    list-style: none; /* Remove default bullets */
+    list-style: none; 
   }
   .blog__list ul li::before {
     content: "\2022";  
@@ -451,3 +458,84 @@ display: flex;
   .product__page{
     height: 100vh;
   }
+  .intro{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background-color: rgb(251, 245, 238);
+  }
+  .intro__title{
+    color: rgb(0, 0, 0);
+  }
+  .intro_second_title{
+    font-weight: 600;
+    color: black;
+  }
+.intro_title_span{
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(103, 98, 98);
+}
+.intro__icons{
+  display: flex;
+  gap: 45px;
+  margin-top: 20px;
+}
+.intro_icon_react{
+  width: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 1px rgb(140, 140, 140));
+}
+.intro_icon_js{
+  width: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 1px rgb(140, 140, 140));
+}
+.intro_icon_css{
+  width: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 1px rgb(140, 140, 140));
+}
+.intro_icon_html{
+  width: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 3px 1px rgb(140, 140, 140));
+}
+.intro__para{
+  color: black;
+}
+.goal{
+  background-image: url("typewhite.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(60%);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.goal__title{
+  color: rgb(255, 255, 255);
+}
+.goal__para{
+  color: rgb(255, 255, 255);
+}
+.goal__para {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 200%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 26%;
+    width: 100%;
+  }
+}

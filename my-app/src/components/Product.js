@@ -5,40 +5,31 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-// import { useNavigate } from 'react-router-dom'
-
-
+import {Link} from 'react-router-dom'
 
 
 export default function MediaCard(props) {
 
-  // const navigate = useNavigate();
 
   return (
 
     <Card sx={{ maxWidth: 345, maxHeight: 360 }} className='product' >
-      <a href={`/productpage/${props.slug}`}>
+      <Link to={`/productpage/${props.slug}`}>
         <CardMedia
           component="img"
           height="130"
           image={props.url}
           alt={props.title}
         />
-      </a>
+      </Link>
       <CardContent>
         <Typography variant="h5" component="div">
           {props.title}
         </Typography>
-        <Typography variant="body5" color="text.secondary">
+        <Typography variant="body6" color="text.secondary">
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
-
-        <Button size="small">Share</Button>
-
-        <Button size="small">More</Button>
-      </CardActions>
     </Card>
 
   );

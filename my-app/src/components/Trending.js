@@ -26,10 +26,7 @@ export default function MediaCard(props) {
         {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">More</Button>
-      </CardActions>
+     
     </Card>
   );
 }

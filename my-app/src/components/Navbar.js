@@ -23,11 +23,12 @@ function Navbar() {
         {dark ? <img src='/darkbulb.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
           <img src='/lightbulb.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
         <input placeholder='Search' className='nav__search' />
+        </div>
+      
 
-      </div>
       <div className='nav__bottom'>
-        <h1 className='get__started'>Let's get started!</h1>
-        <p className='nav__para'>Join our community to build a successfull Tech career.<br/><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br/> tutorials suits you most and build career in tech field.</span></p>
+        <h1 className='get__started'>LET'S GET STARTED!</h1>
+        <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
 
         <button className='get_started_btn'>Get Started</button>
         <button className='contact_us_btn'>Contact Us</button>

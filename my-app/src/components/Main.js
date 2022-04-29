@@ -9,6 +9,8 @@ import webData from '../webData';
 import Web from './Web'
 import TableOfContent from './TableOfContent';
 import { useSelector } from 'react-redux';
+import Intro from './Intro';
+import Goal from './Goal';
 
 
 
@@ -35,16 +37,23 @@ function Main() {
     return (
         <div className={dark ? "main dark" : "main"}>
             <div className='main__container'>
+                <div className='main__intro'>
+                   <Intro/>
+                </div>
             <div className='main__second'>
-             <div className='main__left'>
+             {/* <div className='main__left'>
            <TableOfContent/>
-            </div> 
+            </div>  */}
             <div className='main__right'>
             <h1 className='featured__tutorials'>Featured Tutorials</h1>
             <div className='product__details'>{proDetails}</div>
+           
             <div className='trend'>
             <h1 className='trending__technologies'>Trending Technologies</h1>
             <div className='trending__details'>{trendingDetails}</div></div>
+            <div className='main__intro'>
+                   <Goal/>
+                </div>
             <div className='main_bottom_card'>
                 <div className='latest__up'><h1 className='latest__updates'>Latest Updates</h1>
                 <div className='trending__details'>{updateDetails}</div></div>
