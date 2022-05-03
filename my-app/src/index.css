@@ -394,8 +394,8 @@
   font-weight: 500;
 }
 .get_started_btn:hover {
-  border: 4px solid rgb(255, 255, 255);
-  font-size: 17px;
+  border:3px solid rgb(255, 255, 255);
+  font-size: 16px;
 }
 
 .contact_us_btn {
@@ -529,6 +529,7 @@
 
 .product {
   cursor: pointer;
+
 }
 
 .product__page {
@@ -726,5 +727,42 @@
 }
 .start{
   height: 100vh;
-  background-color: rgb(238, 255, 249);
+  padding: 45px;
+}
+
+.get_started_heading{
+  color: rgb(151, 64, 64);
+  font-weight: 700;
+}
+.next__jump{
+  font-weight: 700;
+  font-family: 'Square Peg';
+  font-size: 30px;
+  margin-left: 100px;
+}
+.jump{
+  display: flex;
+}
+.jump__img{
+  width: 60px;
+}
+.hello__everyone{
+  color: rgb(39, 86, 143);
+  font-size: 30px;
+  font-weight: 400;
+}
+.start_react_img{
+  width: 500px;
+}
+.start_pic_para{
+  display: flex;
+}
+.start__para{
+  margin-left: 20px;
+}
+.letsgo__btn{
+  background-color: rgb(0, 164, 197);
+  border: 1px ;
+  box-shadow: 3px 2px 3px gray;
+  border-radius: 10px;
 }

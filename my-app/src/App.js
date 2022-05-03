@@ -8,8 +8,6 @@ import Blog from './components/Blog'
 import New from './components/New'
 import ProductPage from './pages/ProductPage'
 import Start from './components/Start'
-
-
 function App() {
 
   return (
@@ -23,7 +21,7 @@ function App() {
         <Route path='/productpage/:slug' element={<ProductPage />} />
         <Route path='/start' element={<Start/>}/>
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

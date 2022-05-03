@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { darkMode, lightMode } from '../darkSlice'
 import Menu from './Menu'
 import { useState } from 'react'
+import {HashLink as Link} from 'react-router-hash-link'
 
 
 

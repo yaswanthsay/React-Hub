@@ -6,7 +6,7 @@ function ProductPage() {
     const params = useParams();
     const { slug } = params
     return (
-        <div className='product__page'>
+        <div className='product__page' >
             <h1>{slug}</h1>
         </div>
     )
