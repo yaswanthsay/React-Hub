@@ -44,11 +44,11 @@ function Main() {
                 <div className='main__second'>
                     <div className='main__right'>
                         <h1 className='featured__tutorials'><img src='book.png' alt='' className='tutorials__icon' /> Featured Tutorials</h1>
-                        <div className='product__details'>{proDetails}</div>
+                        <div className='product__details' id='tutorials'>{proDetails}</div>
 
                         <div className='trend'>
                             <h1 className='trending__technologies'><img src='tech.png' alt='' className='tech__icon' />Trending Technologies</h1>
-                            <div className='trending__details'>{trendingDetails}</div></div>
+                            <div className='trending__details' id='trendingId'>{trendingDetails}</div></div>
                         <div className='main__intro'>
                             <Goal />
                         </div>

@@ -10,7 +10,7 @@ export default function MediaCard(props) {
 
 
   return (
-
+<div className='product__container' id='productId'>
     <Card sx={{ maxWidth: 345, maxHeight: 360 }} className='product' >
       <Link to={`/productpage/${props.slug}`}>
         <CardMedia
@@ -30,6 +30,6 @@ export default function MediaCard(props) {
         </Typography>
       </CardContent>
     </Card>
-
+    </div>
   );
 }
