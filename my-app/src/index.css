@@ -257,7 +257,7 @@ display: flex;
   box-shadow:2px 2px 15px 1px rgb(164, 164, 164);
 }
 .nav__container{
-  height:550px;
+  height:700px;
    background-image: url("program.jpg"); 
   background-repeat: no-repeat;
   background-size:100% 650px;
