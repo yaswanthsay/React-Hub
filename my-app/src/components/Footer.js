@@ -5,7 +5,11 @@ function Footer() {
 
   const dark = useSelector(state => state.mode.value)
   return (
-    <div className={dark ? "footer dark" : "footer"}>
+    <div className={dark ? "footer dark" : "footer"} id='footerId'>
+      <div className='contact'>
+        <p className='footer__number'>Mobile:1800-435446-2323</p>
+        <p className='footer__email'>Email:reacthub@gmail.com</p>
+      </div>
         <small>Copyright © 2022 by React Hub.All Rights Reserved</small>
     </div>
   )

@@ -39,7 +39,7 @@ function Navbar() {
         <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
 
         <NavLink to='/start'><button className='get_started_btn'>Get Started</button></NavLink >
-        <button className='contact_us_btn'>Contact Us</button>
+        <Link to='footer#footerId'><button className='contact_us_btn's>Contact Us</button></Link>
       </div>
     </div>
   )

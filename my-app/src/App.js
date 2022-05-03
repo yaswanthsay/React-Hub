@@ -21,7 +21,7 @@ function App() {
         <Route path='/productpage/:slug' element={<ProductPage />} />
         <Route path='/start' element={<Start/>}/>
       </Routes>
-      {/* <Footer /> */}
+     <Footer />
     </div>
   )
 }
