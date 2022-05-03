@@ -22,6 +22,10 @@
   margin-top: 20px;
   font-weight: 600;
 }
+.tutorials__icon{
+  width: 30px;
+  margin-left: 15px;
+}
 .trending__technologies{
   color: rgb(128, 123, 123);
   font-size: 25px;
@@ -33,7 +37,11 @@
   display: flex;
   gap: 40px;
   padding: 50px;
- 
+}
+
+.tech__icon{
+  width: 30px;
+  margin-left: 15px;
 }
 .main{
   display: flex;
@@ -317,6 +325,7 @@ display: flex;
   width: 25px;
   margin-left: 30px;
   margin-top: -10px;
+  cursor: pointer;
 }
 .get__started{
   margin-top: 65px;
@@ -347,12 +356,12 @@ display: flex;
 }
 .light__bulb{
   width: 30px;
-  margin-left: 410px;
+  margin-left: 400px;
   cursor: pointer;
 }
 .black__bulb{
   width: 30px;
-  margin-left: 410px;
+  margin-left: 400px;
   background-color: transparent;
 }
 .nav__bottom{
@@ -527,29 +536,25 @@ display: flex;
   border:5px solid white;
 }
 .menu{
-  background-color: rgb(255, 240, 254);
+  background-color: rgb(253, 242, 252);
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;  
-  transition-timing-function: ease;
-  transition-delay: 1s;
   box-shadow: 3px 1px 8px rgb(75, 75, 75);
 }
-
 .menu ul li {
- 
   list-style: none;
   margin-top:40px;
   width:200px;
- 
 }
 .close{
-  width: 10px;
+  width: 15px;
   position: absolute;
   z-index: 1;
-  margin-top: -35px;
-  margin-left: 35px;
+  margin-top: -15px;
+  margin-left: 30px;
+  cursor: pointer;
 }
 .menu__logo{
   width: 17px;
@@ -559,6 +564,58 @@ display: flex;
   z-index: 1;
   font-size: 18px;
   margin-left: 53px;
-  margin-top: -27px;
+  margin-top: -11px;
   color: rgb(118, 12, 128);
+}
+.instructor__premium{
+  
+  padding-left: 35px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-top: 20px;
+}
+.instructor{
+  display: flex;
+  border: 1px;
+  width:450px;
+  height: 200px;
+  padding: 15px;
+  background-color: rgb(231, 247, 252);
+  box-shadow: 2px 5px 5px rgb(208, 208, 208);
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.teacher__img{
+  width: 140px;
+  height: 150px;
+}
+.premium{
+  display: flex;
+  border: 1px;
+  width:450px;
+  height: 200px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 5px 5px rgb(208, 208, 208);
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+.premium__img{
+  width:170px;
+  height: 170px;
+}
+.instructor_premium_container{
+  margin-top: 25px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.more__btn{
+  background-color: rgb(39, 185, 247);
+  border: 1px;
+  border-radius: 6px;
+  width: 70px;
+  height: 30px;
+  margin-top: 25px;
 }

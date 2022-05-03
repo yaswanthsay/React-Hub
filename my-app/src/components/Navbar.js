@@ -28,12 +28,11 @@ function Navbar() {
         <NavLink to='/help' className='nav__help'>NEEDS HELP?</NavLink>
         <NavLink to='/blog' className='nav__blog'>BLOG</NavLink>
         <NavLink to='/login' className='nav__login'>LOGIN</NavLink>
+      
         {dark ? <img src='/darkbulb.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
           <img src='/lightbulb.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
         <input placeholder='Search' className='nav__search' />
         </div>
-      
-
       <div className='nav__bottom'>
         <h1 className='get__started'>LET'S GET STARTED!</h1>
         <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
