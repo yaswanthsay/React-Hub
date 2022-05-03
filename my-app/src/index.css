@@ -527,29 +527,38 @@ display: flex;
   border:5px solid white;
 }
 .menu{
-  background-color: rgb(255, 249, 240);
+  background-color: rgb(255, 240, 254);
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;  
   transition-timing-function: ease;
   transition-delay: 1s;
+  box-shadow: 3px 1px 8px rgb(75, 75, 75);
 }
 
 .menu ul li {
  
   list-style: none;
-  margin-top: 20px;
-  width:180px;
+  margin-top:40px;
+  width:200px;
  
 }
 .close{
   width: 10px;
   position: absolute;
   z-index: 1;
-  margin-top: -40px;
-  margin-left: 6px;
+  margin-top: -35px;
+  margin-left: 35px;
 }
 .menu__logo{
   width: 17px;
+}
+.menu__title{
+  position: absolute;
+  z-index: 1;
+  font-size: 18px;
+  margin-left: 53px;
+  margin-top: -27px;
+  color: rgb(118, 12, 128);
 }
