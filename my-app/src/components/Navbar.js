@@ -2,18 +2,25 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { darkMode, lightMode } from '../darkSlice'
-
+import Menu from './Menu'
+import { useState } from 'react'
 
 
 
 function Navbar() {
 
+  const [menu,setMenu] = useState(false)
+
   const dark = useSelector(state => state.mode.value)
 
   const dispatch = useDispatch()
+
   return (
     <div className={dark ? "nav__container dark" : "nav__container"}>
       <div className={dark ? "nav dark" : "nav"}>
+        <img src='/menu.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(true)}/>
+        {menu ? <img src='/close.png' alt='' className='close' onClick={()=>setMenu(false)}/> : ""}
+        {menu ? <Menu/>  : ""}
         <h1 className='nav__title'>React Hub</h1>
         <NavLink to='/' className='nav__home'>HOME</NavLink>
         <NavLink to='/new' className='nav__new'>WHAT'S NEW?</NavLink>
