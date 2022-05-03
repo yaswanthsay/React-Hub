@@ -7,7 +7,6 @@ import updateData from '../updateData';
 import Updates from './Updates'
 import webData from '../webData';
 import Web from './Web'
-import TableOfContent from './TableOfContent';
 import { useSelector } from 'react-redux';
 import Intro from './Intro';
 import Goal from './Goal';
@@ -43,9 +42,6 @@ function Main() {
                     <Intro />
                 </div>
                 <div className='main__second'>
-                    {/* <div className='main__left'>
-           <TableOfContent/>
-            </div>  */}
                     <div className='main__right'>
                         <h1 className='featured__tutorials'><img src='book.png' alt='' className='tutorials__icon' /> Featured Tutorials</h1>
                         <div className='product__details'>{proDetails}</div>

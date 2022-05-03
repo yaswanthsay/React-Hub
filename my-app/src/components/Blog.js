@@ -21,7 +21,7 @@ export default function StandardImageList() {
             <li>Outlook</li>
           </ul>
         </div>
-        
+
         <div className='blog__img'>
           <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
             {itemData.map((item) => (
