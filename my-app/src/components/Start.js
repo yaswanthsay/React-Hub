@@ -12,7 +12,7 @@ function Start() {
                     React components implement a render() method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by render() via this.props.JSX is optional and not required to use React. Try the Babel REPL to see the raw JavaScript code produced by the JSX compilation step.</p>
             </div>
             <div className='start_pic_para'>
-                <img src='reactpic.jpg' alt='' className='start_react_img' />
+                <img src='/reactpic.jpg' alt='' className='start_react_img' />
                 <div>
                     <p className='start__para'>A Stateful Component
                         In addition to taking input data (accessed via this.props), a component can maintain internal state data (accessed via this.state). When a component’s state data changes, the rendered markup will be updated by re-invoking render().An Application
@@ -27,7 +27,7 @@ function Start() {
             </div>
             <div className='jump'>
                 <h2>LET'S JUMP IN TO THE TUTORIALS</h2>
-                <img src='jump.png' alt='' className='jump__img'/>
+                <img src='arrow.png' alt='' className='arrow__img'/>
                 <Link to='/intro#reacthubId'><button className='letsgo__btn'>Let's Goooo!!!</button></Link>
             </div>
 

@@ -22,11 +22,8 @@ export default function MediaCard(props) {
         />
       </Link>
       <CardContent>
-        <Typography variant="h5" component="div">
+        <Typography variant="h6" component="div">
           {props.title}
-        </Typography>
-        <Typography variant="body6" color="text.secondary">
-          {props.description}
         </Typography>
       </CardContent>
     </Card>

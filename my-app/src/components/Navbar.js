@@ -8,9 +8,10 @@ import {HashLink as Link} from 'react-router-hash-link'
 
 
 
+
 function Navbar() {
 
-  const [menu,setMenu] = useState(false)
+  const [menu,setMenu] = useState(true)
 
   const dark = useSelector(state => state.mode.value)
 
@@ -19,9 +20,9 @@ function Navbar() {
   return (
     <div className={dark ? "nav__container dark" : "nav__container"}>
       <div className={dark ? "nav dark" : "nav"}>
-        <img src='/menu.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(true)}/>
-        {menu ? <img src='/menu.png' alt='' className='close' onClick={()=>setMenu(false)}/> : ""}
-        {menu ? <Menu/>  : ""}
+       {menu ? <img src='/menu.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
+       {menu? "" : <img src='/close.png' alt='' className='close' onClick={()=>setMenu(true)}/>}
+        {menu ? "" : <Menu/> }
         <h1 className='nav__title'>React Hub</h1>
         <NavLink to='/' className='nav__home'>HOME</NavLink>
         <NavLink to='/new' className='nav__new'>WHAT'S NEW?</NavLink>
@@ -36,7 +37,6 @@ function Navbar() {
       <div className='nav__bottom'>
         <h1 className='get__started'>LET'S GET STARTED!</h1>
         <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
-
         <NavLink to='/start'><button className='get_started_btn'>Get Started</button></NavLink >
         <Link to='footer#footerId'><button className='contact_us_btn's>Contact Us</button></Link>
       </div>
