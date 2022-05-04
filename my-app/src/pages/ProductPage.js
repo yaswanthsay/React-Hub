@@ -7,7 +7,7 @@ function ProductPage() {
     const { slug } = params
     return (
         <div className='product__page' >
-            <h1>{slug}</h1>
+            <h1 className='product_page_heading'>{slug}</h1>
         </div>
     )
 }

@@ -20,8 +20,7 @@ function Navbar() {
     <div className={dark ? "nav__container dark" : "nav__container"}>
       <div className={dark ? "nav dark" : "nav"}>
         <img src='/menu.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(true)}/>
-        {menu ? <img src='/close.png' alt='' className='close' onClick={()=>setMenu(false)}/> : ""}
-        {menu? <h1 className='menu__title'>React Hub</h1>:""}
+        {menu ? <img src='/menu.png' alt='' className='close' onClick={()=>setMenu(false)}/> : ""}
         {menu ? <Menu/>  : ""}
         <h1 className='nav__title'>React Hub</h1>
         <NavLink to='/' className='nav__home'>HOME</NavLink>
