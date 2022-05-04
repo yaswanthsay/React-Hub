@@ -5,12 +5,13 @@ import { darkMode, lightMode } from '../darkSlice'
 import Menu from './Menu'
 import { useState } from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
-
+import Services from './Services'
 
 
 
 function Navbar() {
-
+  
+  const [services,setServices] = useState(true)
   const [menu,setMenu] = useState(true)
 
   const dark = useSelector(state => state.mode.value)
@@ -35,10 +36,17 @@ function Navbar() {
         <input placeholder='Search' className='nav__search' />
         </div>
       <div className='nav__bottom'>
+        <div className='nav_bottom_container'>
         <h1 className='get__started'>LET'S GET STARTED!</h1>
         <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
         <NavLink to='/start'><button className='get_started_btn'>Get Started</button></NavLink >
         <Link to='footer#footerId'><button className='contact_us_btn's>Contact Us</button></Link>
+      </div>
+      <div className='nav__services' onClick={()=>setServices(false)}>
+      <div className='nav_services_btn' >SERVICES</div>
+      </div>
+      {services ? "" : <Services />}
+      {services ? "": <img src='/rightarrow.png' alt='' className='nav_service_arrow' onClick={()=>setServices(true)}/>}
       </div>
     </div>
   )
