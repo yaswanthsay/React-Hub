@@ -29,9 +29,7 @@ function Start() {
                 </div>
             </div>
             <p className='start_next_tutorials'>Now you are little bit aware of React library.Next it's time to acquire skills on React.<br/>We are providing world class tutorials that are taken by great tutors.<br/>Next we can go to tutorials.</p>
-            <Link to='intro#reacthubId' className='start_tutorials_link'><div className='start__tutorials'>
-                <p className='start_tutorials_tag'>Tutorials</p>
-            </div></Link>
+            <Link to='intro#reacthubId' className='btn'>Tutorials</Link>
         </div>
     )
 }
