@@ -9,7 +9,7 @@ function Instructor() {
         <button className='more__btn'>More</button>
         </div>
         <div>
-            <img src='programming.png' alt='' className='premium__img'/>
+            <img src='/programming.png' alt='' className='premium__img'/>
             </div>   
     </div>
   )
