@@ -128,12 +128,10 @@
   background-color: white;
   color: white;
 }
-
 .dark {
   background-color: rgb(31, 29, 29);
   color: aliceblue;
 }
-
 .login__form {
   display: flex;
   flex-direction: column;
@@ -143,7 +141,6 @@
   background-color: white;
   box-shadow: 5px 5px 10px  rgb(218, 217, 217);
 }
-
 .signup__form {
   display: flex;
   flex-direction: column;
@@ -154,7 +151,6 @@
   background-color: white;
   box-shadow: 5px 5px 10px  rgb(218, 217, 217);
 }
-
 .email {
   width: 180px;
   height: 47px;
@@ -165,7 +161,6 @@
   border-bottom: 1px solid rgb(195, 195, 195);
   border-radius:8px ;
 }
-
 .password {
   width: 180px;
   height: 47px;
@@ -176,7 +171,6 @@
   border-bottom: 1px solid rgb(195, 195, 195);
   border-radius:8px ;
 }
-
 .username {
   width: 180px;
   height: 47px;
@@ -187,7 +181,6 @@
   border: 1px;
   border-bottom: 1px solid rgb(195, 195, 195);
 }
-
 .number {
   width: 180px;
   height: 47px;
@@ -198,7 +191,6 @@
   border: 1px;
   border-bottom: 1px solid rgb(195, 195, 195);
 }
-
 .login__btn {
   width: 70px;
   height: 67px;
@@ -210,7 +202,6 @@
   background-color: black;
   color: white;
 }
-
 .signup__btn {
   width: 70px;
   height: 67px;
@@ -222,73 +213,61 @@
   border-radius: 50%;
   border: 1px solid rgb(198, 198, 198);
 }
-
 .login {
   height: 100vh;
   width: 100%;
   padding-left: 550px;
   padding-top: 100px;
- 
 }
 .signup {
   height: 100vh;
   width: 100%;
   padding-left: 550px;
   padding-top: 100px;
- 
-}
 
+}
 .signup__heading {
   margin-left: 63px;
   font-weight: 300;
   font-size: 20px;
 }
-
 .login__heading {
   margin-left: 55px;
   font-weight: 300;
 }
-
 .new__account {
   font-size: 13px;
   cursor: pointer;
   margin-top: -20px;
   margin-left: 20px;
 }
-
 .already__account {
   font-size: 11px;
   margin-top: -20px;
   margin-left: 20px;
   cursor: pointer;
 }
-
 .forgot__password {
   font-size: 13px;
   margin-left: 115px;
   width: 500px;
 }
-
 .new_account_link {
   text-decoration: none;
   color: black;
 }
-
 .already_account_link {
   text-decoration: none;
   color: black;
 }
-
 .main__container {
   display: flex;
   flex-direction: column;
 }
-
 .main__second {
   display: flex;
   padding-top: 3px;
 }
-
 .nav {
   align-items: center;
   border-bottom: 1px solid rgb(209, 204, 204);
@@ -300,7 +279,6 @@
   background-color: transparent;
   box-shadow: 2px 2px 15px 1px rgb(164, 164, 164);
 }
-
 .nav__container {
   height: 700px;
   background-image: url("program.jpg");
@@ -309,8 +287,6 @@
   background-size: 100% 650px;
   box-shadow: 6px 2px 1px rgb(169, 168, 168);
 }
-
-
 .nav__home {
   margin-left: 20px;
   text-decoration: none;
@@ -892,11 +868,53 @@
   height: 30px;
   margin-top: 25px;
 }
+.vl1{
+  border-left: 1px solid rgb(197, 197, 197);
+  margin-left: 70px;
+  height: 800px;
+}
+.vl2{
+  border-left: 1px solid rgb(197, 197, 197);
+  margin-left: 70px;
+  height: 500px;
+  margin-top: -90px;
+}
 .start{
   height: 100%;
   padding: 45px;
+  font-family: 'Playfair Display';
+   background-color: rgb(247, 247, 247);
 }
-
+.start__tutorials{
+  border: 1px solid rgb(66, 79, 75);
+  width: 170px;
+  height: 30px;
+  margin-left:540px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.start__tutorials:hover{
+  box-shadow: 3px 2px 13px 2px  rgb(210, 210, 210);
+}
+.start_tutorials_link{
+  text-decoration: none;
+}
+.start_tutorials_tag{
+  padding-left: 53px;
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+.start_next_tutorials{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+.start__title{
+  color: rgb(74, 128, 111);
+  display: flex;
+  justify-content: center;
+}
 .get_started_heading{
   color: rgb(151, 64, 64);
   font-weight: 700;
@@ -948,14 +966,43 @@
   font-size: 30px;
   font-weight: 400;
 }
-.start_react_img{
-  width: 300px;
+.happycoding__img{
+  width:350px ;
+  height: 350px;
+  margin-left: 160px;
 }
-.start_pic_para{
+.happycoding1__img{
+  width:675px ;
+  height: 400px;
+  margin-left: -45px;
+  margin-top: 146px;
+  position: absolute;
+}
+.happycoding2__img{
+  width:675px ;
+  height: 400px;
+  margin-top: 163px;
+}
+.happycoding3__img{
+  width:350px;
+  height: 232px;
+  margin-top: 63px;
+  margin-left: 210px;
+}
+.start_para_img{
   display: flex;
+  margin-top: 90px;
 }
-.start__para{
-  margin-left: 20px;
+.start__para1{
+  margin-left: 210px;
+  font-size: 13px;
+  width:350px;
+}
+.start__para2{
+  margin-left: 160px;
+  font-size: 13px;
+  width:350px ;
+  margin-top: 63px;
 }
 .letsgo__btn{
   background-color: rgb(0, 164, 197);
