@@ -304,6 +304,7 @@
 .nav__container {
   height: 700px;
   background-image: url("program.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 650px;
   box-shadow: 6px 2px 1px rgb(169, 168, 168);
@@ -739,6 +740,7 @@
 
 .goal {
   background-image: url("typewhite.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(70%);
