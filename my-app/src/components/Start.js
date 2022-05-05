@@ -27,7 +27,7 @@ function Start() {
             </div>
             <div className='jump'>
                 <h2>LET'S JUMP IN TO THE TUTORIALS</h2>
-                <img src='arrow.png' alt='' className='arrow__img'/>
+                <img src='rightarrow.png' alt='' className='arrow__img'/>
                 <Link to='/intro#reacthubId'><button className='letsgo__btn'>Let's Goooo!!!</button></Link>
             </div>
 

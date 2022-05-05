@@ -46,7 +46,7 @@ function Navbar() {
       <div className='nav_services_btn' >SERVICES</div>
       </div>
       {services ? "" : <Services />}
-      {services ? "": <img src='/rightarrow.png' alt='' className='nav_service_arrow' onClick={()=>setServices(true)}/>}
+      {services ? "": <img src='/leftarrow.png' alt='' className='nav_service_arrow' onClick={()=>setServices(true)}/>}
       </div>
     </div>
   )
