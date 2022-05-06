@@ -1,18 +1,24 @@
+
 import React from 'react'
 
-function Instructor() {
+function Premium() {
   return (
-    <div className='premium'>
+    <div className='premium__container'>
+      <div className='premium'>
         <div>
-        <h4>Premium courses</h4>
-        <p>These are the courses taken by experienced lectures </p>
-        <button className='more__btn'>More</button>
+          <img src='/arrow.png' alt='' className='premium__arrow'/>
         </div>
-        <div>
-            <img src='/programming.png' alt='' className='premium__img'/>
-            </div>   
+      <div>
+      <h6 className='premium__title'>PREMIUM COURSES</h6>
+      <p className='premium__para'>Our premium courses are picked up after filteration. <br/>These courses are all taken by experienced instructors.</p>
+      <button className='premium__btn'>MORE</button>
+      </div>     
+      <div className='premium_img_container'>
+        <img src='/premium.png' alt='teacher' className='premium__img'/>
+      </div>
+    </div>
     </div>
   )
 }
 
-export default Instructor
+export default Premium
