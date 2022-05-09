@@ -607,13 +607,14 @@
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin-left: 110px;
-  margin-top: 140px;
+  margin-left: 150px;
+  margin-top: 130px;
   background-color: rgb(81, 81, 81);
   cursor: pointer;
   color: white;
   box-shadow: 1px 5px 6px rgb(100, 100, 100);
 }
+
 
 .nav_services_btn {
   margin-top: 26px;
@@ -744,14 +745,18 @@
 .intro__para {
   color: black;
 }
+.goal__container{
+  display: flex;
+}
 
 .goal {
   background-image: url("typewhite.jpg");
+  width: 850px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(70%);
-  height: 250px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -759,13 +764,29 @@
 }
 
 .goal__title {
-  color: rgb(255, 255, 255);
+  color: rgb(25, 160, 209);
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 180px;
+  font-size: 45px;
+  font-family: 'Playfair';
 }
 
 .goal__para {
-  color: rgb(255, 255, 255);
+  color: rgb(115, 110, 110);
+  font-size: 16px;
+  margin-left:105px;
+  font-weight: 100;
+  margin-top: 40px;
 }
-
+.goal__arrow{
+  width: 370px;
+  margin-top: -100px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 50%;
+  padding:170px;
+  margin-left: -65px;
+}
 .product__img {
   border: 7px solid white;
 }

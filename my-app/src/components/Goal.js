@@ -5,9 +5,14 @@ function Goal() {
 
   const dark = useSelector(state => state.mode.dark)
   return (
-    <div>    <div className={dark ? "goal dark" : "goal"}>
-      <h1 className='goal__title'>OUR GOAL</h1>
-      <p className='goal__para'>Providing unique websites, interactive apps, and customized marketing plans to expand your business presence.</p>
+    <div className='goal__container'>  
+    <div className={dark ? "goal dark" : "goal"}>
+     
+    </div>
+    <div>
+    <h1 className='goal__title'>OUR GOAL</h1>
+      <p className='goal__para'>Providing unique websites, interactive <br/> apps,and customised marketing plans <br/>to  expand your business presense.<br/> Along with that we are also providing <br/>upcomming talents to grow their skill<br/> by working with us along with learning <br/>under continues guidance</p>
+      <img src='/rightarrow.png' alt='' className='goal__arrow'/>
     </div>
     </div>
   )
