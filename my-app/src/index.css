@@ -668,9 +668,13 @@
   cursor: pointer;
   border: 1px ;
   height: 300px;
-  
 }
-
+.product:hover{
+  background-color: rgb(255, 237, 214);
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 10px;
+  padding: 13px;
+}
 .product__img{
   width: 80px;
   filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
