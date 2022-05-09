@@ -514,12 +514,12 @@
   margin-top: -190px;
 }
 
-.services {
-  animation-duration: 1.3s;
-  animation-name: slideout;
+.services{
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
-@keyframes slideout {
+@keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
@@ -607,6 +607,8 @@
   border-radius: 50%;
   width: 80px;
   height: 80px;
+  margin-left: 110px;
+  margin-top: 140px;
   background-color: rgb(81, 81, 81);
   cursor: pointer;
   color: white;
@@ -617,25 +619,6 @@
   margin-top: 26px;
   margin-left: 11px;
   font-size: 13px;
-}
-
-.nav__services {
-  animation-duration: 1.3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  margin-left:150px;
-}
-@keyframes slidein {
-  from {
-    margin-top: 15%;
-    width: 80px;
-  }
-
-  to {
-    margin-top: 20%;
-    width: 80px;
-  }
 }
 
 .blog {
@@ -823,12 +806,12 @@
   font-family: 'Playfair Display';
 }
 
-.menu {
-  animation-duration: 1.5s;
-  animation-name: slideout;
+.menu{
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
-@keyframes slideout {
+@keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
@@ -861,159 +844,125 @@
   margin-top: -11px;
   color: rgb(118, 12, 128);
 }
-
-.instructor__premium {
-  padding-left: 35px;
-  border-bottom: 1px solid rgb(230, 230, 230);
-  margin-top: 20px;
-}
-
-.teacher__img {
-  width: 340px;
-  height: 360px;
-  margin-left: 470px;
-  margin-top: 80px;
-  padding: 35px;
-  box-shadow:1px 2px 2px 2px rgb(199, 198, 198);
-}
-.message__img{
-  width: 200px;
-  height: 50px;
-  color: rgb(189, 189, 189);
-}
 .instructor{
   display: flex;
 }
-.instructor__title{
-  color: rgb(103, 23, 161);
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 120px;
-  margin-left: -25px;
-}
-.instructor_para_container{
-display: flex;
+.instructor__btn{
+  margin-left: 300px;
+  border: 1px solid #4c5a52;
+  background-color: #678274;
+  height: 30px;
+  width: 140px;
+  color: rgb(247, 247, 247);
+  box-shadow: 3px 2px 5px gray;
+  font-size: 10px;
 }
 .instructor__para{
-  background-repeat: no-repeat;
-  font-family: 'Playfair Display';
-margin-left: 490px;
- margin-top: 70px;
- position: absolute;
- padding: 20px;
- background-color: rgb(251, 248, 244);
- overflow: hidden;
- width:700px;
- height: 450px;
- font-size: 30px;
- 
+  display: flex;
+  text-align: center;
+  font-size:23px;
+  color: rgb(31, 86, 113);
+  font-family: 'Playfair';
+  margin-top: 190px;
+  margin-left:180px;
+}
+.instructor__img{
+  width: 400px;
+  height:400px;
+  margin-top: 40px;
+  margin-left:135px;
+}
+.why__popup{
+  width: 600px;
+  height: 550px;
+  background-color: rgb(251, 248, 244) ;
+  z-index: 1;
+  margin-left: -970px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.why_popup_para{
+  font-size: 50px;
+  font-weight: 600;
+  color:  #678274;
+}
+.why__popup ul{
+  color: #678274;
+  font-size: 22px;
+}
+.why__popup ul li span{
+  text-decoration: underline ;
+  cursor: pointer;
+}
+.why__popup ul li span:hover{
+  text-decoration: none ;
+  color: #678274;
+}
+.instructor__page{
+  background-color: #678274;
+  margin-left: -1050px;
+  width: 1400px;
+  height: 550px;
+  margin-top: -550px;
+  display: flex;
+  align-items: center;
 }
 
-.instructor__para {
-  animation-duration: 2.5s;
-  animation-name: slideout;
+/* .instructor__page{
+  animation-duration: 1.5s;
+  animation-name: slidein;
 }
 
-@keyframes slideout {
+@keyframes slidein {
   from {
     margin-left: 100%;
-    width:700px;
+    width: 1300px;
   }
 
   to {
-    margin-left: 490px;
-    width:700px;
+    margin-left: -1025px;;
+    width: 1400px;
   }
+} */
+.instructor_page_title{
+  margin-left: 210px;
+  font-size: 30px;
+  color: #fff;
+ 
 }
-.instructor_para_span1{
-  font-weight: 700;
+.instructor__page ol li{
+  font-size:15px;
+  margin-left: 30px;
+  margin-top: 22px;
+  font-weight: 600;
 }
-.instructor_para_span3{
-  font-weight: 700;
-  font-family: 'Poppins';
-  border: 1px solid;
-  text-decoration: none;
-  color: #045647;
-  font-size: 10px;
-  padding: 2px;
+.instructor_page_list{
+  display: flex;
+  flex-direction: column;
 }
-
-.instructor__btn{
-  width: 132px;
-  height: 130px;
-  border: 1px ;
-  border-radius: 50%;
-  background-color: rgb(251, 248, 244);
-  margin-left: 1000px;
-  margin-top: 140px;
-  box-shadow: 5px 5px 6px rgb(202, 202, 202);
-  color: #4d8d81;
-  font-weight:200;
+.recruiting__contact{
+  margin-left: 46px;
 }
-.instructor__arrow{
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  margin-left: 850px;
-  margin-top: 160px;
+.recruiting__contact span{
+  color: #fff;
 }
-.instructor__unlist{
-  margin-top: 50px;
-  font-size: 20px;
-  color: #4d8d81;
-}
-.become__an{
-color: rgb(145, 88, 197);
-font-weight: 600;
-}
-.instructor__span{
-color: rgb(70, 143, 216);
-font-weight: 600;
-}
-
-.itteacher1{
-  width:550px;
-  height:350px;
-  position: absolute;
-  border: 5px solid rgb(251, 248, 244);
-  box-shadow: 3px 3px 8px 2px rgb(199, 199, 199);
-  margin-left: 150px;
-  margin-top: 40px;
-}
-.itteacher2{
-  width:650px;
-  height: 300px;
-  position: absolute;
-  border: 5px solid rgb(251, 248, 244);
-  box-shadow: 3px 3px 8px 2px rgb(199, 199, 199);
-  margin-top:260px;
-}
-.itteacher3{
-  width:450px;
-  height: 250px;
-  position: absolute;
-  border: 5px solid rgb(251, 248, 244);
-  box-shadow: 3px 3px 8px 2px rgb(199, 199, 199);
-  margin-left: 460px;
-}
-.itteacher4{
-  width:370px;
-  height: 250px;
-  position: absolute;
-  border: 5px solid rgb(251, 248, 244);
-  box-shadow: 3px 3px 8px 2px rgb(199, 199, 199);
-  margin-left:925px;
-  
+.itteacher1__img{
+  width: 600px;
+  border: 1px solid black;
+  margin-top: 80px;
+  margin-left:150px;
 }
 .premium {
   display: flex;
-  margin-top: 500px;
+  margin-bottom: 60px;
 }
 
 .premium__img {
   width: 290px;
   height: 280px;
-  margin-left: 260px;
+  margin-left: 110px;
   margin-top: 70px;
   padding: 35px;
   filter: drop-shadow(10px 5px 5px rgb(192, 192, 192));
@@ -1023,25 +972,20 @@ font-weight: 600;
   font-size: 13px;
   font-weight: 600;
   margin-top: 150px;
-  margin-left: 304px;
+  margin-left: 460px;
 }
 .premium__para{
   font-family: 'Playfair Display';
   text-align: center;
-  margin-left: 177px;
+  margin-left: 327px;
 }
 .premium__btn{
   width: 122px;
   height: 30px;
   border: 1px solid;
   background-color: rgb(251, 248, 244);
-  margin-left: 308px;
+  margin-left: 460px;
   box-shadow: 5px 5px 6px rgb(202, 202, 202);
-}
-
-.instructor_premium_container {
-  margin-top: 25px;
-  margin-bottom: 30px;
 }
 
 .more__btn {

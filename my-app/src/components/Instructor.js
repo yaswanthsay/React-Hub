@@ -1,38 +1,25 @@
 import React from 'react'
 import { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+
+import Why from './Why'
 
 function Instructor() {
 
-  const [instructor,setInstructor] = useState(true) 
-
-
+  const [why,setWhy] = useState(true)
   return (
     <div className='instructor__container'>
       <div className='instructor'>
-        <div>
-          {instructor ? <img src='/itteacher1.jpg' alt='' className='itteacher1'/>: ""}
-        </div>
-    {instructor  ? "" :  
-    <div className='instructor_para_container'>
-      <div>
-    <p className='instructor__para'>
-    <div className='instructor_para_img'>
-        <img src='/itteacher3.jpg' alt='' className='itteacher3'/>
-      </div><span className='instructor_para_span1'>Why React Hub?
-  
-    <ul className='instructor__unlist'>
-      <li>Long years of experience in IT sector.</li>
-      <li>Free and budget friendly tutorials.</li>
-      <li>Availability of teachers in everytime</li>
-      <li>World class and experienced lectures</li>
-    </ul>
-    </span><br/><span className='instructor_para_span2'>Are you passionate on teaching your skills to the students?Then you are in the right place.</span><br/><NavLink to='/' className='instructor_para_span3' >JOIN WITH US.</NavLink></p>
+         <div className='instructor__img'>
+         <img src='/instructor.png' alt='' className='instructor__img'/>
+         </div>
+         <div className='instructor_btn_container'>
+           <p className='instructor__para'>Are you passionate and experienced <br/>in teaching your skills to the students? <br/>Then you are in the right place.You can<br/> join with us to become an instructor</p>
+           <button className='instructor__btn' onMouseOver={()=>setWhy(false)}>BECOME AN INSTRUCTOR</button>
+         </div>
+         {why ? "" : <Why/>}
+      </div>
+     
     </div>
-    </div> }</div> 
-      {instructor ? <img src='/arrow1.png' alt='' className='instructor__arrow'/> : "" }
-      {instructor ? <button className='instructor__btn' onMouseOver={()=>setInstructor(false)} >BECOME AN INSTRUCTOR</button>: "" }
-      </div>  
   )
 }
 
