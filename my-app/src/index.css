@@ -52,7 +52,7 @@
 .main {
   display: flex;
   font-family: 'Poppins';
-  background-color: rgb(251, 248, 244);
+  background-color: white;
 }
 
 .main_bottom_card {
@@ -925,7 +925,7 @@
 .why__popup{
   width: 600px;
   height: 550px;
-  background-color: rgb(251, 248, 244) ;
+  background-color: rgb(255, 255, 255) ;
   z-index: 1;
   margin-left: -970px;
   display: flex;
@@ -936,10 +936,10 @@
 .why_popup_para{
   font-size: 50px;
   font-weight: 600;
-  color:  rgb(80, 164, 195);
+  color:  rgb(107, 122, 125);
 }
 .why__popup ul{
-  color: rgb(80, 164, 195);
+  color: rgb(107, 122, 125);
   font-size: 22px;
 }
 .why__popup ul li span{
@@ -948,16 +948,17 @@
 }
 .why__popup ul li span:hover{
   text-decoration: none ;
-  color: rgb(80, 164, 195);
+  color: rgb(107, 122, 125);
 }
 .instructor__page{
-  background-color: rgb(80, 164, 195);
+  background-color: rgb(246, 251, 253);
   margin-left: -1050px;
   width: 1400px;
-  height: 750px;
-  margin-top: -550px;
+  height: 550px;
+  margin-top: -20px;
   display: flex;
   align-items: center;
+  box-shadow: 1px 3px 8px gray;
 }
 
 /* .instructor__page{
@@ -977,16 +978,17 @@
   }
 } */
 .instructor_page_title{
-  margin-left: 210px;
-  font-size: 30px;
-  color: #fff;
+  margin-left: 165px;
+  font-size: 37px;
+  color: rgb(0, 0, 0);
  
 }
 .instructor__page ol li{
   font-size:15px;
   margin-left: 30px;
   margin-top: 22px;
-  font-weight: 600;
+  font-weight: 200;
+  color: rgb(112, 112, 112);
 }
 .instructor_page_list{
   display: flex;
