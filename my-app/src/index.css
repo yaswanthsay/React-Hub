@@ -666,10 +666,50 @@
 
 .product {
   cursor: pointer;
+  border: 1px ;
+  height: 300px;
 }
 
+.product__img{
+  width: 80px;
+  filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
+}
+.product__img:hover{
+  width: 85px;
+  filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
+}
+.product__title{
+  font-weight: 100;
+  color: rgb(67, 67, 67);
+}
+.product__para{
+ text-align: start;
+ margin-top: 20px;
+}
 .product__page {
   height: 100vh;
+}
+
+.trending{
+  cursor: pointer;
+  border: 1px ;
+  height: 300px;
+}
+.trending__img{
+  width: 80px;
+  filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
+}
+.trending__img:hover{
+  width: 85px;
+  filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
+}
+.trending__para{
+  text-align: start;
+  margin-top: 20px;
+}
+.trending__title{
+  font-weight: 100;
+  color: rgb(63, 63, 63);
 }
 
 .intro {
@@ -786,22 +826,11 @@
   border-radius: 50%;
   padding:170px;
   margin-left: -65px;
-}
-.product__img {
-  border: 7px solid white;
+  cursor: pointer;
 }
 
-.trending__img {
-  border: 7px solid white;
-}
 
-.web__img {
-  border: 5px solid white;
-}
 
-.update__img {
-  border: 5px solid white;
-}
 
 .menu li {
   list-style: none;
@@ -871,7 +900,7 @@
 .instructor__btn{
   margin-left: 300px;
   border: 1px solid #4c5a52;
-  background-color: #678274;
+  background-color: rgb(80, 164, 195);
   height: 30px;
   width: 140px;
   color: rgb(247, 247, 247);
@@ -882,7 +911,7 @@
   display: flex;
   text-align: center;
   font-size:23px;
-  color: rgb(31, 86, 113);
+  color: rgb(80, 164, 195);
   font-family: 'Playfair';
   margin-top: 190px;
   margin-left:180px;
@@ -907,10 +936,10 @@
 .why_popup_para{
   font-size: 50px;
   font-weight: 600;
-  color:  #678274;
+  color:  rgb(80, 164, 195);
 }
 .why__popup ul{
-  color: #678274;
+  color: rgb(80, 164, 195);
   font-size: 22px;
 }
 .why__popup ul li span{
@@ -919,13 +948,13 @@
 }
 .why__popup ul li span:hover{
   text-decoration: none ;
-  color: #678274;
+  color: rgb(80, 164, 195);
 }
 .instructor__page{
-  background-color: #678274;
+  background-color: rgb(80, 164, 195);
   margin-left: -1050px;
   width: 1400px;
-  height: 550px;
+  height: 750px;
   margin-top: -550px;
   display: flex;
   align-items: center;
@@ -1004,11 +1033,11 @@
   width: 122px;
   height: 30px;
   border: 1px solid;
-  background-color: rgb(251, 248, 244);
+  background-color: rgb(32, 121, 153);
   margin-left: 460px;
   box-shadow: 5px 5px 6px rgb(202, 202, 202);
+  color: white;
 }
-
 .more__btn {
   background-color: rgb(39, 185, 247);
   border: 1px;

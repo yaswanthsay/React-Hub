@@ -12,7 +12,7 @@ function Premium() {
       <button className='premium__btn'>MORE</button>
       </div>     
       <div className='premium_img_container'>
-        <img src='/premium.png' alt='teacher' className='premium__img'/>
+        <img src='/diamond.png' alt='teacher' className='premium__img'/>
       </div>
     </div>
     </div>

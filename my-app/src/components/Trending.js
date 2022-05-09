@@ -1,31 +1,46 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+// import * as React from 'react';
+// import Card from '@mui/material/Card';
+// import CardContent from '@mui/material/CardContent';
+// import CardMedia from '@mui/material/CardMedia';
+// import Typography from '@mui/material/Typography';
 
 
 
-export default function MediaCard(props) {
+// export default function MediaCard(props) {
 
-  return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-       className='trending__img'
-        component="img"
-        height="130"
-        image={props.url}
-        alt="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h6" component="div">
-         {props.title}
-        </Typography>
-        <Typography variant="body6" color="text.secondary">
-        {props.description}
-        </Typography>
-      </CardContent>
+//   return (
+//     <Card sx={{ maxWidth: 345 }}>
+//       <CardMedia
+//        className='trending__img'
+//         component="img"
+//         height="130"
+//         image={props.url}
+//         alt="green iguana"
+//       />
+//       <CardContent>
+//         <Typography gutterBottom variant="h6" component="div">
+//          {props.title}
+//         </Typography>
+//         <Typography variant="body6" color="text.secondary">
+//         {props.description}
+//         </Typography>
+//       </CardContent>
      
-    </Card>
-  );
+//     </Card>
+//   );
+// }
+
+
+import React from 'react'
+
+function Trending(props) {
+  return (
+    <div className='trending'>
+      <img src={props.url} alt='' className='trending__img'/>
+      <p className='trending__para'>{props.description}</p>
+      <h4 className='trending__title'>{props.title}</h4>
+    </div>
+  )
 }
+
+export default Trending
