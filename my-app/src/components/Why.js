@@ -6,8 +6,12 @@ function Why(props) {
 
     const [instructorPage,setInstructorPage] = useState(true)
   return (
-    <div>
+    <div className='why'>
          {instructorPage ? <div className='why__popup'>
+         <div className='why__img'>
+         <img src='/reactlogo.png' alt='' className='why__logo'/>
+      </div>
+      <div className='why_para_list'>
              <p className='why_popup_para'>Why React Hub?</p>
              <ul>
                <li>More year of experience in IT sector</li>
@@ -15,7 +19,9 @@ function Why(props) {
                <li>Experienced <span onClick={()=>setInstructorPage(false)}>Instructors</span></li>
                <li>Availability of better facilities</li>
              </ul>
-         </div> : ""}
+         </div> 
+         </div>
+         : ""}
          {instructorPage ? "" :<div className='instructor__page'>
         <h3 className='instructor_page_title'>Who are eligible to become <br/>instructor in our company?</h3>
         <div className='instructor_page_list'>

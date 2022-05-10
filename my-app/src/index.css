@@ -243,11 +243,13 @@
   margin-left: 63px;
   font-weight: 300;
   font-size: 20px;
+  color: rgb(99, 169, 219);
 }
 
 .login__heading {
   margin-left: 55px;
   font-weight: 300;
+  color: rgb(99, 169, 219);
 }
 
 .new__account {
@@ -763,7 +765,7 @@
 .intro_title_span {
   font-size: 50px;
   font-weight: 600;
-  color: rgb(103, 98, 98);
+  color: rgb(99, 169, 219);
 }
 
 .intro__icons {
@@ -934,6 +936,7 @@
   background-color:white;
   height: 30px;
   width: 140px;
+  border-radius: 6px;
   color: rgb(0, 0, 0);
   box-shadow: 3px 2px 5px gray;
   font-size: 10px;
@@ -955,14 +958,16 @@
   margin-left:135px;
 
 }
+.why__logo{
+  width: 260px;
+}
 .why__popup{
-  width: 600px;
+  width: 1400px;
   height: 550px;
   background-color: rgb(255, 255, 255) ;
   z-index: 2;
-  margin-left: -470px;
+  margin-left: -950px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -970,11 +975,12 @@
   font-size: 50px;
   font-weight: 600;
   color:  rgb(60, 157, 206);
+  margin-left: 60px;
 }
 .why__popup ul{
   color: rgb(78, 81, 82);
   font-size: 20px;
-  margin-left: -34px;
+  margin-left: 59px;
 }
 .why__popup ul li span{
   text-decoration: underline ;
@@ -985,7 +991,7 @@
   color: rgb(107, 122, 125);
 }
 .instructor__page{
-  background-color: rgb(58, 134, 164);
+  background-color: rgb(99, 169, 219);
   margin-left: -1050px;
   width: 1400px;
   height: 550px;
@@ -1073,6 +1079,7 @@
   height: 30px;
   border: 1px ;
   background-color: white;
+  border-radius: 6px;
   margin-left: 423px;
   box-shadow: 5px 5px 6px rgb(202, 202, 202);
   color: rgb(0, 0, 0);
