@@ -43,7 +43,7 @@ function Navbar() {
          <Link to='footer#footerId'><button className='contact_us_btn' >Contact Us</button></Link>
        <div className='started__hover'></div>
       </div>
-      <div className='nav__services' onMouseOver={()=>setServices(false)}>
+      <div className='nav__services' onClick={()=>setServices(false)}>
       <div className='nav_services_btn' >SERVICES</div>
       </div>
       {services ? "" : <Services />}
