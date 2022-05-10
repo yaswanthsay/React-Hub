@@ -10,7 +10,7 @@ function Instructor() {
     <div className='instructor__container'>
       <div className='instructor'>
          <div className='instructor__img'>
-         <img src='/instructor.png' alt='' className='instructor__img'/>
+         <img src='/coaching.png' alt='' className='instructor__img'/>
          </div>
          
          <div className='instructor_btn_container'>
