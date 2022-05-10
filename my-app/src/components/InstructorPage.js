@@ -3,7 +3,7 @@ import React from 'react'
 function InstructorPage() {
   return (
     <div className='instructor__page'>
-        <h3 className='instructor_page_title'>Who are eligible to become <br/>instructor in our company?</h3>
+        <h3 className='instructor_page_title'>Who are eligible to become instructor in our company?</h3>
         <div className='instructor_page_list'>
         <ol>
          <li>Those who have 2 years of experience as an instructor in front end development.</li>

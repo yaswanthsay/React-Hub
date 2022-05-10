@@ -8,6 +8,7 @@ import Intro from './Intro';
 import Goal from './Goal';
 import Instructor from './Instructor';
 import Premium from './Premium';
+import Works from './Works';
 
 
 
@@ -49,6 +50,9 @@ function Main() {
                             <Instructor />
                             <Premium />
                             </div>
+                        </div>
+                        <div className='main__works'>
+                            <Works/>
                         </div>
                     </div>
                 </div>

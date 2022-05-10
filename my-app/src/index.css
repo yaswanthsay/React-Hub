@@ -11,10 +11,11 @@
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: rgb(255, 245, 245);
+  background-color: rgb(60, 157, 206);
   text-align: center;
   border-top: 1px solid rgb(195, 195, 195);
-  color: rgb(130, 121, 121);
+  color: rgb(0, 0, 0);
+  margin-top: 130px;
 }
 
 .featured__tutorials {
@@ -294,20 +295,20 @@
   border-bottom: 1px solid rgb(209, 204, 204);
   position: fixed;
   width: 100%;
-  height: 75px;
+  height: 65px;
   font-family: 'Poppins';
   z-index: 1;
   background-color: white;
-  box-shadow: 1px 1px 5px 1px rgb(103, 103, 103);
+  box-shadow: 1px 1px 5px 1px rgb(182, 182, 182);
 }
 
 .nav__container {
-  height: 700px;
+  height: 600px;
   background-image: url("welcomepic5.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 650px;
-  box-shadow: 6px 2px 1px rgb(169, 168, 168);
+ 
 }
 
 .nav__home {
@@ -372,7 +373,7 @@
 .nav__login {
   margin-left: 8px;
   text-decoration: none;
-  color: rgb(44, 127, 187);
+  color: rgb(99, 169, 219);
   padding: 6px;
   width: 55px;
   height: 30px;
@@ -389,7 +390,7 @@
   margin-top: 4px;
   margin-left: 50px;
   font-size: 25px;
-  color: rgb(44, 127, 187);
+  color: rgb(99, 169, 219);
   font-weight: 600;
 }
 
@@ -411,7 +412,7 @@
 }
 
 .get__started {
-  margin-top: 65px;
+  margin-top:75px;
   font-size: 44px;
   margin-left: 370px;
   color: rgb(93, 93, 93);
@@ -422,27 +423,31 @@
   text-decoration: none;
   margin-left: 373px;
   cursor: pointer;
-  border: 1px solid ;
-  color: rgb(44, 127, 187);
+  color: rgb(255, 255, 255);
   font-size: 15px;
   padding: 10px;
-  font-weight: 500;
-  background-color: transparent;
+  background-color:rgb(44, 127, 187);
+  border-radius: 6px;
+  border: 1px;
 }
 .get_started_btn:hover{
   background-color:white;
   color: black;
 }
 .contact_us_btn {
- margin-left: 40px;
+  margin-left: 40px;
   cursor: pointer;
-  border: 1px solid;
   color: rgb(0, 0, 0);
   font-size: 15px;
   padding: 10px;
-  font-weight: 500;
+  border: 1px;
+  border-radius: 6px;
   background-color: rgb(255, 255, 255);
   width: 110px;
+}
+.contact_us_btn:hover{
+  background-color:rgb(44, 127, 187);
+  color: white;
 }
 
 .light__bulb {
@@ -632,7 +637,7 @@
   height: 80px;
   margin-left: 150px;
   margin-top: 110px;
-  background-color: rgb(44, 127, 187);
+  background-color: rgb(99, 169, 219);
   cursor: pointer;
   color: white;
   box-shadow: 1px 5px 6px rgb(100, 100, 100);
@@ -641,7 +646,7 @@
   margin-top: 28px;
   margin-left:13px;
   font-size: 13px;
-  color: rgb(206, 206, 206);
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 
@@ -921,6 +926,7 @@
 }
 .instructor{
   display: flex;
+  margin-bottom: 70px;
 }
 .instructor__btn{
   margin-left: 300px;
@@ -935,24 +941,26 @@
 .instructor__para{
   display: flex;
   text-align: center;
-  font-size:23px;
-  color: rgb(80, 164, 195);
-  font-family: 'Playfair';
+  font-size:20px;
+  color: rgb(122, 130, 133);
+  font-family: 'Poppins';
   margin-top: 190px;
   margin-left:180px;
+  font-weight: 100;
 }
 .instructor__img{
   width: 400px;
   height:400px;
   margin-top: 40px;
   margin-left:135px;
+
 }
 .why__popup{
   width: 600px;
   height: 550px;
   background-color: rgb(255, 255, 255) ;
-  z-index: 1;
-  margin-left: -970px;
+  z-index: 2;
+  margin-left: -470px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -961,11 +969,12 @@
 .why_popup_para{
   font-size: 50px;
   font-weight: 600;
-  color:  rgb(107, 122, 125);
+  color:  rgb(60, 157, 206);
 }
 .why__popup ul{
-  color: rgb(107, 122, 125);
-  font-size: 22px;
+  color: rgb(78, 81, 82);
+  font-size: 20px;
+  margin-left: -34px;
 }
 .why__popup ul li span{
   text-decoration: underline ;
@@ -976,7 +985,7 @@
   color: rgb(107, 122, 125);
 }
 .instructor__page{
-  background-color: rgb(246, 251, 253);
+  background-color: rgb(58, 134, 164);
   margin-left: -1050px;
   width: 1400px;
   height: 550px;
@@ -1003,6 +1012,7 @@
   }
 } */
 .instructor_page_title{
+  margin-top: -40px;
   margin-left: 165px;
   font-size: 37px;
   color: rgb(0, 0, 0);
@@ -1013,7 +1023,7 @@
   margin-left: 30px;
   margin-top: 22px;
   font-weight: 200;
-  color: rgb(112, 112, 112);
+  color: rgb(255, 255, 255);
 }
 .instructor_page_list{
   display: flex;
@@ -1031,9 +1041,13 @@
   margin-top: 80px;
   margin-left:150px;
 }
+.premium__container{
+  border-top: 1px solid rgb(222, 222, 222);
+}
 .premium {
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  
 }
 
 .premium__img {
@@ -1045,23 +1059,21 @@
   filter: drop-shadow(10px 5px 5px rgb(192, 192, 192));
 }
 .premium__title{
-  color: rgb(23, 92, 161);
-  font-size: 13px;
-  font-weight: 600;
+  color: rgb(60, 157, 206);
+  font-size: 27px;
+  font-weight: 700;
   margin-top: 150px;
-  margin-left: 460px;
+  margin-left: 370px;
 }
 .premium__para{
-  font-family: 'Playfair Display';
-  text-align: center;
-  margin-left: 327px;
+  margin-left:277px;
 }
 .premium__btn{
   width: 122px;
   height: 30px;
   border: 1px ;
   background-color: white;
-  margin-left: 460px;
+  margin-left: 423px;
   box-shadow: 5px 5px 6px rgb(202, 202, 202);
   color: rgb(0, 0, 0);
 }
@@ -1252,16 +1264,19 @@
 .footer__email {
   margin-left: 30px;
   font-size: 10px;
-  color: rgb(160, 160, 160);
+  color: rgb(254, 246, 246);
 }
 
 .footer__number {
   font-size: 10px;
-  color: rgb(160, 160, 160);
+  color: rgb(254, 246, 246);
+  margin-left: -40px;
 }
 
 .footer__statment {
   font-size: 10px;
+  margin-left: 150px;
+  color: rgb(254, 246, 246);
 }
 
 .product_page_heading {
@@ -1295,4 +1310,83 @@
 .btn:hover {
   color: #fff;
   z-index: 1;
+}
+.work{
+  border-top: 1px solid rgb(219, 219, 219);
+}
+.work__container{
+  margin-top: 80px;
+}
+.work__title{
+  color: rgb(60, 157, 206);
+  font-weight: 600;
+  margin-left: 370px;
+}
+.work__left{
+  display: flex;
+}
+.work_para_icons{
+  margin-top: 50px;
+  margin-left: 180px;
+}
+.work__para{
+  margin-left: 170px;
+  color: gray;
+}
+.packit{
+  width: 100px;
+  cursor: pointer;
+  margin-left:60px;
+}
+.packit:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
+}
+.olx{
+  width: 100px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.olx:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
+}
+.ecommerce{
+  width: 100px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.ecommerce:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
+}
+.amazon{
+  width: 100px;
+  margin-left: 60px;
+  cursor: pointer;
+ margin-top: 30px;
+}
+.amazon:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
+}
+.netflix{
+  width: 100px;
+  margin-left: 60px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.netflix:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
+}
+.tesla{
+  width: 100px;
+  margin-left:60px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.tesla:hover{
+  width: 101px;
+  filter: drop-shadow(5px 5px 5px rgb(155, 155, 155));
 }
