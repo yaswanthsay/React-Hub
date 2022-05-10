@@ -31,8 +31,8 @@ function Navbar() {
         <NavLink to='/help' className='nav__help'>NEEDS HELP?</NavLink>
         <NavLink to='/blog' className='nav__blog'>BLOG</NavLink>
         <NavLink to='/login' className='nav__login'>LOGIN</NavLink>
-        {dark ? <img src='/darktorch.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
-          <img src='/lighttorch.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
+        {dark ? <img src='/darkbulb3.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
+          <img src='/lightbulb3.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
         <input placeholder='Search' className='nav__search' />
         </div>
       <div className='nav__bottom'>
