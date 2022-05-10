@@ -303,7 +303,7 @@
 
 .nav__container {
   height: 700px;
-  background-image: url("program.jpg");
+  background-image: url("welcomepic5.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 650px;
@@ -313,9 +313,9 @@
 .nav__home {
   margin-left: 20px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(106, 106, 106);
   font-weight: 500;
-
+  font-weight: 600;
   width: 60px;
   height: 35px;
   padding-top: 5px;
@@ -325,19 +325,21 @@
 
 .nav__new {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(106, 106, 106);
   padding-top: 5px;
   padding-left: 7px;
   width: 125px;
   height: 35px;
+  font-weight: 600;
 }
 
 .nav__help {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(106, 106, 106);
   padding-top: 5px;
   width: 125px;
   height: 35px;
+  font-weight: 600;
 }
 
 .nav__search {
@@ -346,38 +348,45 @@
   border-radius: 15px;
   border: 1px solid rgb(190, 190, 190);
 }
-
+.nav__blog {
+  text-decoration: none;
+  color: rgb(106, 106, 106);
+  font-size: 19px;
+  margin-left: -1rem;
+  font-weight: 600;
+}
 .nav__login {
   margin-left: 8px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(44, 127, 187);
   padding: 6px;
   width: 55px;
   height: 30px;
   font-size: 17px;
   margin-top: -0.6rem;
+  font-weight: 600;
 }
 
 .nav__title {
   margin-top: 4px;
   margin-left: 50px;
   font-size: 25px;
-  color: rgb(193, 79, 128);
-
+  color: rgb(44, 127, 187);
+  font-weight: 600;
 }
 
 .nav__para {
-  margin-left: 200px;
-  color: rgb(255, 255, 255);
+  margin-left: 373px;
+  color: rgb(0, 0, 0);
 }
 
 .nav__para2 {
-  color: rgb(187, 187, 187);
+  color: rgb(0, 0, 0);
   font-size: 13px;
 }
 
 .nav_menu_icon {
-  width: 25px;
+  width: 23px;
   margin-left: 30px;
   margin-top: -10px;
   cursor: pointer;
@@ -386,17 +395,17 @@
 .get__started {
   margin-top: 65px;
   font-size: 44px;
-  margin-left: 200px;
-  color: rgb(255, 255, 255);
+  margin-left: 370px;
+  color: rgb(93, 93, 93);
   font-weight: 700;
 }
 
 .get_started_btn {
   text-decoration: none;
-  margin-left: 200px;
+  margin-left: 373px;
   cursor: pointer;
-  border: 1px solid;
-  color: rgb(255, 255, 255);
+  border: 1px solid ;
+  color: rgb(44, 127, 187);
   font-size: 15px;
   padding: 10px;
   font-weight: 500;
@@ -485,12 +494,7 @@
   margin-left: 20px;
 }
 
-.nav__blog {
-  text-decoration: none;
-  color: white;
-  font-size: 19px;
-  margin-left: -1rem;
-}
+
 
 .nav__bottom {
   display: flex;
@@ -603,13 +607,13 @@
 }
 
 .nav__services {
-  border: 3px solid rgb(247, 247, 247);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
   width: 80px;
   height: 80px;
   margin-left: 150px;
-  margin-top: 130px;
-  background-color: rgb(81, 81, 81);
+  margin-top: 110px;
+  background-color: rgb(44, 127, 187);
   cursor: pointer;
   color: white;
   box-shadow: 1px 5px 6px rgb(100, 100, 100);
@@ -618,7 +622,7 @@
 
 .nav_services_btn {
   margin-top: 26px;
-  margin-left: 11px;
+  margin-left:11px;
   font-size: 13px;
 }
 
@@ -670,10 +674,7 @@
   height: 300px;
 }
 .product:hover{
-  background-color: rgb(255, 237, 214);
-  border: 1px solid rgb(239, 239, 239);
-  border-radius: 10px;
-  padding: 13px;
+  height: 310px;
 }
 .product__img{
   width: 80px;
@@ -684,8 +685,9 @@
   filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
 }
 .product__title{
-  font-weight: 100;
+  font-weight: 600;
   color: rgb(67, 67, 67);
+
 }
 .product__para{
  text-align: start;

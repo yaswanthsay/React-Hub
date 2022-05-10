@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className={dark ? "nav__container dark" : "nav__container"}>
       <div className={dark ? "nav dark" : "nav"}>
-       {menu ? <img src='/menu.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
+       {menu ? <img src='/menu4.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
        {menu? "" : <img src='/close.png' alt='' className='close' onClick={()=>setMenu(true)}/>}
         {menu ? "" : <Menu/> }
         <h1 className='nav__title'>React Hub</h1>
@@ -31,8 +31,8 @@ function Navbar() {
         <NavLink to='/help' className='nav__help'>NEEDS HELP?</NavLink>
         <NavLink to='/blog' className='nav__blog'>BLOG</NavLink>
         <NavLink to='/login' className='nav__login'>LOGIN</NavLink>
-        {dark ? <img src='/darkbulb.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
-          <img src='/lightbulb.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
+        {dark ? <img src='/darktorch.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
+          <img src='/lighttorch.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
         <input placeholder='Search' className='nav__search' />
         </div>
       <div className='nav__bottom'>
@@ -43,7 +43,7 @@ function Navbar() {
          <Link to='footer#footerId'><button className='contact_us_btn' >Contact Us</button></Link>
        <div className='started__hover'></div>
       </div>
-      <div className='nav__services' onClick={()=>setServices(false)}>
+      <div className='nav__services' onMouseOver={()=>setServices(false)}>
       <div className='nav_services_btn' >SERVICES</div>
       </div>
       {services ? "" : <Services />}

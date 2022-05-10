@@ -2,7 +2,7 @@ const trendingData = [
     {
         "id":"1",
         "title":"AI",
-        "url":"https://cdn-icons.flaticon.com/png/128/2586/premium/2586669.png?token=exp=1652095322~hmac=e326b479c8c625a21d8615ac83ffca13",
+        "url":"/artificial.png",
         "description":"AI  going to create huge wonders"
     },
     {
@@ -14,7 +14,7 @@ const trendingData = [
     {
         "id":"3",
         "title":"Cloud Computing",
-        "url":"https://cdn-icons.flaticon.com/png/128/3732/premium/3732927.png?token=exp=1652095427~hmac=01ea88db31e559dc1badaada39dfe55b",
+        "url":"/cloud.png",
         "description":"Cloud Computing is very trending now a days"
     },
     {
@@ -26,7 +26,7 @@ const trendingData = [
     {
         "id":"5",
         "title":"Data Science",
-        "url":"https://cdn-icons.flaticon.com/png/128/2821/premium/2821670.png?token=exp=1652095498~hmac=14f1cfec2601df064f1eb68c4f3dc4d7",
+        "url":"/datascience.png",
         "description":"Data Science is more popular in current scenario"
     }
 ]
