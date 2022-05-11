@@ -1,12 +1,24 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import {JackInTheBox} from 'react-awesome-reveal'
+import Typical from 'react-typical'
 
 function Goal() {
 
   const dark = useSelector(state => state.mode.dark)
   return (
-    <div className='goal__container'>  
+    <div className='goal__container'> 
+    <h4 className='goal__just'>Just</h4>
+    <Typical className='goal__typical'
+             steps={[
+                  'DESIGN',
+                  1000,
+                  'DEVELOP',
+                  1000,
+                ]}
+                wrapper="p"
+                loop={Infinity}
+        />
     <div className={dark ? "goal dark" : "goal"}>
      
     </div>
