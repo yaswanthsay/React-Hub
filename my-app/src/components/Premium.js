@@ -1,8 +1,11 @@
 
 import React from 'react'
+import LazyShow from './LazyShow'
 
 function Premium() {
   return (
+    <>
+    <LazyShow>
     <div className='premium__container'>
       <div className='premium'>
     
@@ -16,6 +19,8 @@ function Premium() {
       </div>
     </div>
     </div>
+    </LazyShow>
+    </>
   )
 }
 

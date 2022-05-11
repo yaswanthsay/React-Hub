@@ -32,14 +32,19 @@
 
 
 import React from 'react'
+import LazyShow from './LazyShow'
 
 function Trending(props) {
   return (
+    <>
+    <LazyShow>
     <div className='trending'>
       <img src={props.url} alt='' className='trending__img'/>
       <p className='trending__para'>{props.description}</p>
       <h4 className='trending__title'>{props.title}</h4>
     </div>
+    </LazyShow>
+    </>
   )
 }
 

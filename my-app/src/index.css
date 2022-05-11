@@ -310,7 +310,6 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 650px;
- 
 }
 
 .nav__home {
@@ -1110,7 +1109,6 @@
 .start {
   height: 100%;
   padding: 45px;
-  font-family: 'Playfair Display';
   background-color: rgb(247, 247, 247);
 }
 
@@ -1425,4 +1423,7 @@
 .help_further_queries{
   font-weight: 600;
   font-family: 'Playfair';
+}
+.sample{
+  height: 100%;
 }

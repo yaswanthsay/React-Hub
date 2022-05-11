@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import LazyShow from './LazyShow'
 
 import Why from './Why'
 
@@ -7,6 +8,8 @@ function Instructor() {
 
   const [why,setWhy] = useState(true)
   return (
+    <>
+    <LazyShow>
     <div className='instructor__container'>
       <div className='instructor'>
          <div className='instructor__img'>
@@ -19,8 +22,9 @@ function Instructor() {
          </div>
          {why ? "" : <Why/>}
       </div>
-     
     </div>
+    </LazyShow>
+    </>
   )
 }
 

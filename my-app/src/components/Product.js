@@ -31,14 +31,19 @@
 //   );
 // }
 import React from 'react'
+import LazyShow from './LazyShow'
 
 function Product(props) {
   return (
+    <>
+    <LazyShow>
     <div className='product'>
       <img src={props.url} alt='' className='product__img'/>
       <p className='product__para'>{props.description}</p>
       <h4 className='product__title'>{props.title}</h4>
     </div>
+    </LazyShow>
+    </>
   )
 }
 

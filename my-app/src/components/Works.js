@@ -1,8 +1,11 @@
 import React from 'react'
+import LazyShow from './LazyShow'
 
 
 function Works() {
   return (
+    <>
+    <LazyShow>
     <div className='work'>
       <div className='work__container'>
         <div className='work__left'>
@@ -21,6 +24,8 @@ function Works() {
         </div>
       </div>
     </div>
+    </LazyShow>
+    </>
   )
 }
 

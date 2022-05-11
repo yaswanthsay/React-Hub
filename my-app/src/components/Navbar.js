@@ -6,6 +6,7 @@ import Menu from './Menu'
 import { useState } from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
 import Services from './Services'
+import LazyShow from './LazyShow'
 
 
 
@@ -22,6 +23,7 @@ function Navbar() {
   return (
     <div className={dark ? "nav__container dark" : "nav__container"} id='nav__containerId'>
       <div className={dark ? "nav dark" : "nav"}>
+        
        {menu ? <img src='/menu4.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
        {menu? "" : <img src='/close.png' alt='' className='close' onClick={()=>setMenu(true)}/>}
         {menu ? "" : <Menu/> }
@@ -34,6 +36,7 @@ function Navbar() {
         {dark ? <img src='/darkbulb3.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
           <img src='/lightbulb3.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
         <input placeholder='Search' className='nav__search' />
+        
         </div>
       <div className='nav__bottom'>
         <div className='nav_bottom_container'>
@@ -48,6 +51,7 @@ function Navbar() {
       </div>
       {services ? "" : <Services />}
       {services ? "": <img src='/leftarrow.png' alt='' className='nav_service_arrow' onClick={()=>setServices(true)}/>}
+      
       </div>
     </div>
   )

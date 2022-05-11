@@ -8,6 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import axios from 'axios'
 import { useState, useEffect } from 'react';
+import LazyShow from './LazyShow';
 
 
 export default function BasicTable() {
@@ -21,6 +22,8 @@ export default function BasicTable() {
 
 
   return (
+    <>
+    <LazyShow>
     <div className='new'>
       <h1 className='new__title'>What's New!</h1>
       <TableContainer component={Paper}>
@@ -53,5 +56,7 @@ export default function BasicTable() {
         </Table>
       </TableContainer>
     </div>
+    </LazyShow>
+    </>
   );
 }
