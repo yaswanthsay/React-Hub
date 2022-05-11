@@ -5,7 +5,7 @@ import LazyShow from './LazyShow'
 function Premium() {
   return (
     <>
-    <LazyShow>
+    
     <div className='premium__container'>
       <div className='premium'>
     
@@ -15,11 +15,13 @@ function Premium() {
       <button className='premium__btn'>MORE</button>
       </div>     
       <div className='premium_img_container'>
+      <LazyShow>
         <img src='/diamond.png' alt='teacher' className='premium__img'/>
+        </LazyShow>
       </div>
     </div>
     </div>
-    </LazyShow>
+   
     </>
   )
 }
