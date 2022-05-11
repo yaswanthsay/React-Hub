@@ -20,13 +20,13 @@ function Navbar() {
   const dispatch = useDispatch()
 
   return (
-    <div className={dark ? "nav__container dark" : "nav__container"}>
+    <div className={dark ? "nav__container dark" : "nav__container"} id='nav__containerId'>
       <div className={dark ? "nav dark" : "nav"}>
        {menu ? <img src='/menu4.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
        {menu? "" : <img src='/close.png' alt='' className='close' onClick={()=>setMenu(true)}/>}
         {menu ? "" : <Menu/> }
         <h1 className='nav__title'>React Hub</h1>
-        <NavLink to='/' className='nav__home'>HOME</NavLink>
+        <Link to='nav__container#nav__containerId' className='nav__home'>HOME</Link>
         <NavLink to='/new' className='nav__new'>WHAT'S NEW?</NavLink>
         <NavLink to='/help' className='nav__help'>NEEDS HELP?</NavLink>
         <NavLink to='/blog' className='nav__blog'>BLOG</NavLink>

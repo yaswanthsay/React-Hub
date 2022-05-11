@@ -6,23 +6,9 @@ export default function StandardImageList() {
   return (
     <div className='blog'>
       <h1 className='blog__title'>Websites made with React</h1>
-      <p className='blog__para'>The importance of a website cannot be stated enough. Over the past few years, modern React websites have made a mark of their own. Moreover, we have seen many market leaders opting for React JS in order to increase their user base. Some of the React websites example GitHub followed by Facebook, Airbnb, Instagram, Salesforce, BBC, Reddit and many more.</p>
+      <p className='blog__para1'>The importance of a website cannot be stated enough. Over the past few years, modern React websites have made a mark of their own. Moreover, we have seen many market leaders opting for React JS in order to increase their user base. Some of the React websites example GitHub followed by Facebook, Airbnb, Instagram, Salesforce, BBC, Reddit and many more.</p>
       <div className='blog__contents'>
-        <div className='blog__list'>
-          <ul>
-            <li>Uber</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Reddit</li>
-            <li>Udemy</li>
-            <li>Netflix</li>
-            <li>CodeCademy</li>
-            <li>Khan academy</li>
-            <li>Outlook</li>
-          </ul>
-        </div>
-
-        <div className='blog__img'>
+      <div className='blog__img'>
           <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
@@ -36,6 +22,20 @@ export default function StandardImageList() {
             ))}
           </ImageList>
         </div>
+         <div className='blog__list'>
+          <ul>
+            <li>Uber</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Reddit</li>
+            <li>Udemy</li>
+            <li>Netflix</li>
+            <li>CodeCademy</li>
+            <li>Khan academy</li>
+            <li>Outlook</li>
+          </ul>
+        </div> 
+      
       </div>
     </div>
   );

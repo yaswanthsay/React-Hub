@@ -511,17 +511,6 @@
   color: rgb(118, 12, 128);
 }
 
-.blog__title {
-  font-size: 30px;
-  margin-left: 20px;
-}
-
-.blog__para {
-  margin-left: 20px;
-}
-
-
-
 .nav__bottom {
   display: flex;
 }
@@ -654,9 +643,22 @@
 
 .blog {
   height: 100vh;
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(255, 249, 249);
   padding-top: 30px;
 }
+.blog__contents{
+  display: flex;
+}
+.blog__title {
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgb(60, 157, 206);
+}
+
+.blog__para1 {
+  margin-left: 20px;
+}
+
 
 .blog__img {
   margin-left: 800px;
@@ -668,9 +670,8 @@
 }
 
 .blog__list ul li {
-  color: rgb(43, 147, 226);
   margin-left: 20px;
-  font-weight: 600;
+  font-weight: 100;
   font-size: 20px;
 }
 

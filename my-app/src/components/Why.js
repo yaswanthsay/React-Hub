@@ -1,5 +1,4 @@
 import React from 'react'
-import InstructorPage from './InstructorPage'
 import { useState } from 'react'
 
 function Why(props) {
