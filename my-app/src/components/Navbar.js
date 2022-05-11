@@ -7,6 +7,7 @@ import { useState } from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
 import Services from './Services'
 import Shake from 'react-reveal/HeadShake'
+import Typical from 'react-typical'
 
 
 
@@ -37,8 +38,23 @@ function Navbar() {
         </div>
       <div className='nav__bottom'>
         <div className='nav_bottom_container'>
-        <h1 className='get__started'>LET'S GET STARTED!</h1>
+        <h1 className='get__started'><span>Let's</span> Get Started!</h1>
         <p className='nav__para'>Join our community to build a successfull Tech career.<br /><span className='nav__para2'>You have reached at the right place.Feel free to find out the best<br /> tutorials suits you most and build career in tech field.</span></p>
+        <h3 className='nav_are_you'> Are you </h3>
+        <Typical className='nav__typical'
+             steps={[
+                  'Passionate?',
+                  1000,
+                  'Hardworking?',
+                  1000,
+                  'Creative?',
+                  1000,
+                  'Enthusiastic?',
+                  1000,
+                ]}
+                wrapper="p"
+                loop={Infinity}
+        />
         <NavLink to='/start' className='get_started_btn' >Get Started</NavLink >
          <Link to='footer#footerId'><button className='contact_us_btn' >Contact Us</button></Link>
        <div className='started__hover'></div>

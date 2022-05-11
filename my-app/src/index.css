@@ -412,6 +412,18 @@
   margin-top: -10px;
   cursor: pointer;
 }
+.nav_are_you{
+  margin-left: 373px;
+  
+}
+.nav__typical{
+  margin-left: 480px;
+  margin-top: -44px;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(255, 249, 249);
+  text-shadow: 2px 3px 4px rgb(150, 150, 150);
+}
 
 .get__started {
   margin-top:75px;
@@ -420,7 +432,10 @@
   color: rgb(93, 93, 93);
   font-weight: 700;
 }
-
+.get__started span{
+  font-weight:400;
+  font-family: 'Playfair';
+}
 .get_started_btn {
   text-decoration: none;
   margin-left: 373px;
