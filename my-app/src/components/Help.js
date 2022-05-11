@@ -1,13 +1,11 @@
 import React from 'react'
 import {AnimationOnScroll} from 'react-animation-on-scroll'
-import LazyShow from './LazyShow'
 
 
 function Help() {
  
     return (
-      <>
-      <LazyShow>
+      
         <div className='help'>
             <h3 className='help__title'>Common queries</h3>
             <AnimationOnScroll animateIn='fadeIn'
@@ -28,8 +26,7 @@ function Help() {
             <p className='help_further_queries'>If there is any further queries : </p>
             <input placeholder='Enter your queries...' type='text' className='further__queries'  name='queries'/>
         </div>
-        </LazyShow>
-        </>
+       
     )
 }
 

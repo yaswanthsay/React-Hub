@@ -18,7 +18,7 @@ function Main() {
 
 
     const proDetails = productData.map((prod) => (
-        <Product slug={prod.slug} title={prod.title} description={prod.description} url={prod.url} />
+        <Product key={prod.id} slug={prod.slug} title={prod.title} description={prod.description} url={prod.url} />
     ))
 
     const trendingDetails = trendingData.map((trend) => (

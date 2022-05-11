@@ -152,6 +152,7 @@
   width: 290px;
   height: 500px;
   padding: 30px;
+  font-size: 13px;
   background-color: white;
   box-shadow: 5px 5px 10px rgb(218, 217, 217);
 }

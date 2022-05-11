@@ -1,12 +1,9 @@
 import * as React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import LazyShow from './LazyShow';
 
 export default function StandardImageList() {
   return (
-    <>
-    <LazyShow>
     <div className='blog'>
       <h1 className='blog__title'>Websites made with React</h1>
       <p className='blog__para1'>The importance of a website cannot be stated enough. Over the past few years, modern React websites have made a mark of their own. Moreover, we have seen many market leaders opting for React JS in order to increase their user base. Some of the React websites example GitHub followed by Facebook, Airbnb, Instagram, Salesforce, BBC, Reddit and many more.</p>
@@ -41,8 +38,6 @@ export default function StandardImageList() {
       
       </div>
     </div>
-    </LazyShow>
-    </>
   );
 }
 

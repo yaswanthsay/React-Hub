@@ -31,20 +31,17 @@
 //   );
 // }
 import React from 'react'
-import LazyShow from './LazyShow'
+import Fade from 'react-reveal/Fade';
 
 function Product(props) {
   return (
-    <>
-    
     <div className='product'>
-    <LazyShow>
+      <Fade bottom>
       <img src={props.url} alt='' className='product__img'/>
-      </LazyShow>
+      </Fade>
       <p className='product__para'>{props.description}</p>
       <h4 className='product__title'>{props.title}</h4>
     </div>
-    </>
   )
 }
 

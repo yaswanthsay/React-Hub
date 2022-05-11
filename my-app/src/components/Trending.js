@@ -32,20 +32,17 @@
 
 
 import React from 'react'
-import LazyShow from './LazyShow'
+import Fade from 'react-reveal/Fade';
 
 function Trending(props) {
   return (
-    <>
-    
     <div className='trending'>
-    <LazyShow>
+      <Fade bottom>
       <img src={props.url} alt='' className='trending__img'/>
-      </LazyShow>
+      </Fade>
       <p className='trending__para'>{props.description}</p>
       <h4 className='trending__title'>{props.title}</h4>
     </div>
-    </>
   )
 }
 

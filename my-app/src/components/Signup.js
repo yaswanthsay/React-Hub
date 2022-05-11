@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
+import {JackInTheBox} from 'react-awesome-reveal'
 
 
 function Signup() {
@@ -27,7 +28,9 @@ function Signup() {
         <input {...register("password", { required: true, maxLength: 10, })} placeholder='Password' className='password' name='password' type='password' />
         <div className='password__error'>{errors.password?.type==='required' && "Password is required"}</div>
         <div>
+        <JackInTheBox>
         <input className='signup__btn' type='submit' value='SIGNUP'/>
+        </JackInTheBox>
         <Link to='/login' className='already_account_link'><p className='already__account'>Already have an account?</p></Link>
         </div>
       </form>

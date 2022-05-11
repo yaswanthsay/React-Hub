@@ -1,11 +1,9 @@
 import React from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
-import LazyShow from './LazyShow'
+
 
 function Start() {
     return (
-        <>
-        <LazyShow>
         <div className='start'>
             <h2 className='start__title'>GET STARTED FROM HERE</h2>
             <div className='start_para_img'>
@@ -34,8 +32,6 @@ function Start() {
             <p className='start_next_tutorials'>Now you are little bit aware of React library.Next it's time to acquire skills on React.<br/>We are providing world class tutorials that are taken by great tutors.<br/>Next we can go to tutorials.</p>
             <Link to='intro#reacthubId' className='btn'>Tutorials</Link>
         </div>
-        </LazyShow>
-        </>
     )
 }
 
