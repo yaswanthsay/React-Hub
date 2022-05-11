@@ -4,7 +4,7 @@ import Main from './Main'
 
 function Home() {
   return (
-    <div>
+    <div className='home' id='homeId'>
       <Navbar />
       <Main />
     </div>
