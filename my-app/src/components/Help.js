@@ -1,5 +1,5 @@
 import React from 'react'
-import {AnimationOnScroll} from 'react-animation-on-scroll'
+
 
 
 function Help() {
@@ -8,8 +8,6 @@ function Help() {
       
         <div className='help'>
             <h3 className='help__title'>Common queries</h3>
-            <AnimationOnScroll animateIn='fadeIn'
-        animateOut='fadeIn'>
             <ol>
                 <li>Is React Hub is providing online classes?</li>
                 <p className='help__ans1'>Yes, React Hub is also providing offline classes.</p>
@@ -22,7 +20,6 @@ function Help() {
                 <li>Is there any interview procedure before joining the React Hub classes</li>    
                 <p className='help__ans1'>Yes, there is two step interview procedures before joining the tutorial.First is a written test and second is a face to face interview.</p>
             </ol>
-            </AnimationOnScroll>
             <p className='help_further_queries'>If there is any further queries : </p>
             <input placeholder='Enter your queries...' type='text' className='further__queries'  name='queries'/>
         </div>
