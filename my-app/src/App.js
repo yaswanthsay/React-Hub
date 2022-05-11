@@ -8,6 +8,7 @@ import Blog from './components/Blog'
 import New from './components/New'
 import ProductPage from './pages/ProductPage'
 import Start from './components/Start'
+import Help from './components/Help'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='*' element={<Home />} />
         <Route path='/new' element={<New />} />
+        <Route path='/help' element={<Help/>}/>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/blog' element={<Blog />} />

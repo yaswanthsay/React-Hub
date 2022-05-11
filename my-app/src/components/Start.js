@@ -4,7 +4,7 @@ import {HashLink as Link} from 'react-router-hash-link'
 function Start() {
     return (
         <div className='start'>
-            <h2 className='start__title'>Get Started From Here</h2>
+            <h2 className='start__title'>GET STARTED FROM HERE</h2>
             <div className='start_para_img'>
                 <div className='start_para_container'>
                     <p className='start__para1'>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
