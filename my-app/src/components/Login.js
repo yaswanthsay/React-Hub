@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import {JackInTheBox} from 'react-awesome-reveal'
 
@@ -22,7 +22,7 @@ function Login() {
           <JackInTheBox>
         <input className='login__btn' type='submit' value='LOGIN'/>
         </JackInTheBox>
-        <Link to='/signup' className='new_account_link'><p className='new__account'>Create new account?</p></Link>
+        <NavLink to='/signup' className='new_account_link'><p className='new__account'>Create new account?</p></NavLink>
         </div>
       </form>
     </div>

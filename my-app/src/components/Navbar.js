@@ -6,7 +6,7 @@ import Menu from './Menu'
 import { useState } from 'react'
 import {HashLink as Link} from 'react-router-hash-link'
 import Services from './Services'
-import Shake from 'react-reveal/HeadShake'
+import Shake from 'react-reveal/Shake'
 import Typical from 'react-typical'
 
 
@@ -31,6 +31,7 @@ function Navbar() {
         <NavLink to='/new' className='nav__new'>WHAT'S NEW?</NavLink>
         <NavLink to='/help' className='nav__help'>NEEDS HELP?</NavLink>
         <NavLink to='/blog' className='nav__blog'>BLOG</NavLink>
+        <NavLink to='/todo' className='nav__todo'>ToDo</NavLink>
         <NavLink to='/login' className='nav__login'>LOGIN</NavLink>
         {dark ? <img src='/darkbulb3.png' alt='darkbulb' className='black__bulb' onClick={() => dispatch(lightMode())} /> :
           <img src='/lightbulb3.png' alt='lightbulb' className='light__bulb' onClick={() => dispatch(darkMode())} />}
@@ -44,13 +45,13 @@ function Navbar() {
         <Typical className='nav__typical'
              steps={[
                   'Passionate?',
-                  1000,
+                  1600,
                   'Hardworking?',
-                  1000,
+                  1600,
                   'Creative?',
-                  1000,
+                  1600,
                   'Enthusiastic?',
-                  1000,
+                  1600,
                 ]}
                 wrapper="p"
                 loop={Infinity}
@@ -59,7 +60,7 @@ function Navbar() {
          <Link to='footer#footerId'><button className='contact_us_btn' >Contact Us</button></Link>
        <div className='started__hover'></div>
       </div>
-      <Shake>
+      <Shake duration={5000}>
       <div className='nav__services' onClick={()=>setServices(false)}>   
       <div className='nav_services_btn' >SERVICES</div>
       </div>
