@@ -7,12 +7,12 @@ function Menu() {
     <div className='menu'>
     <div className='menu__container'>
      <ul>
-       <li>REACT JS</li>
-       <li>REDUX TOOLKIT</li>
-       <li>JAVASCRIPT</li>
-       <li>HTML and CSS</li>
-       <li>ARTIFICIAL INTELLIGENCE</li>
-       <li>MACHINE LEARNING</li>
+       <li>React JS</li>
+       <li>Redux Toolkit</li>
+       <li>Javascript</li>
+       <li>Html and Css</li>
+       <li>Artificial Intelligence</li>
+       <li>Machine Learning</li>
      </ul>
     </div>
     </div>
