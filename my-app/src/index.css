@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500;600&family=Libre+Bodoni:ital,wght@0,400;0,500;1,600&family=Lora:wght@400;500;600&family=Merienda&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500;600&family=Dancing+Script:wght@400;500;600&family=Libre+Bodoni:ital,wght@0,400;0,500;1,600&family=Lora:wght@400;500;600&family=Merienda&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Square+Peg&display=swap');
 
 .product__details {
   display: flex;
@@ -557,8 +557,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(243, 243, 243);
-  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 127, 187);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -584,6 +584,15 @@
     margin-left: 0%;
     width: 100%;
   }
+}
+.services__web{
+  color: black;
+}
+.services__app{
+  color: black;
+}
+.services__seo{
+  color: black;
 }
 
 .nav_service_arrow {
@@ -612,15 +621,7 @@
   margin-top: 40px;
 }
 
-.web_service_container {
-  margin-left: 110px;
-  border: 1px solid;
-  height: 130px;
-  width: 230px;
-  padding-left: 15px;
-  padding-top: 15px;
-  cursor: pointer;
-}
+
 
 .web_service_img {
   width: 50px;
@@ -636,10 +637,19 @@
   width: 50px;
   margin-left: 130px;
 }
+.web_service_container {
+  margin-left: 110px;
+  border: 1px solid black;
+  height: 130px;
+  width: 230px;
+  padding-left: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
 
 .app_service_container {
   margin-left: 20px;
-  border: 1px solid;
+  border: 1px solid black;
   height: 130px;
   width: 230px;
   padding-left: 15px;
@@ -649,7 +659,7 @@
 
 .seo_service_container {
   margin-left: 20px;
-  border: 1px solid;
+  border: 1px solid black;
   height: 130px;
   width: 350px;
   padding-left: 15px;
@@ -936,8 +946,7 @@
   font-size: 45px;
   display: flex;
   align-items: center;
-  background-color: rgb(247, 247, 247);
-  opacity: 0.95;
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
@@ -1488,22 +1497,25 @@
 }
 .todo__container{
   height: 100%;
+  padding-bottom: 50px;
+  padding-top: 15px;
 }
 .todo{
-  border: 1px solid black;
-  height: 560px;
+padding-top: 10px;
+  height: 600px;
   width: 515px;
-  margin-left: 450px;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  box-shadow: 2px 2px 2px 2px rgb(212, 212, 212);
+  margin-left: 650px;
+  box-shadow:3px 3px 7px 1px rgb(198, 198, 198);
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 1px solid rgb(221, 221, 221);
 }
 .todo__title{
   display: flex;
   justify-content: center;
   color: rgb(60, 157, 206);
   margin-top:55px;
-  font-weight: 100;
+  font-weight: 400;
 }
 .todo__input{
   margin-left:72px;
@@ -1512,33 +1524,34 @@
   height:42px;
   text-indent: 13px;
   border: 1px;
-  border: 1px solid rgb(0, 0, 0);
-  box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);
-  border-radius: 8px;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  border-radius: 6px;
 }
 .todo_add_btn{
    margin-left: 20px;
    width: 50px;
-   height:42px;
+   height:48px;
    border: 1px solid rgb(203, 203, 203);
-   border-radius: 8px;
+   border-radius: 50%;
    background-color: rgb(0, 0, 0);
    color: white;
 }
 .todo__space{
-  border-radius: 6px;
+  border-radius:15px ;
   height: 300px;
   width: 370px;
   margin-left: 70px;
   margin-top: 40px;
-  border: 0.5px solid rgb(216, 216, 216);
- 
+  border: 0.5px solid rgb(174, 174, 174);
+   box-shadow: 1px 1px 3px gray inset;
 }
 .todo_items_title{
  margin-top: -6px;
  margin-left: 7px;
- font-weight: 700;
+ font-weight:200;
  display: flex;
+ color: rgb(116, 116, 116);
+ font-size: 16px;
 }
 .todo_title_close{
   display: flex;
@@ -1563,4 +1576,60 @@
   position: absolute;
   margin-left: 280px;
   cursor: pointer;
+}
+.todo_pen_container{
+  margin-left:230px;
+  margin-top: 307px;
+  position: absolute;
+}
+.todo_pen_img{
+  width: 20px;
+  position: absolute;
+
+}
+.todo_clock_container{
+  margin-top:335px;
+  position: absolute;
+  margin-left:200px;
+}
+.todo_clock_img{
+  width: 20px;
+  position: absolute;
+  margin-left:30px;
+}
+.todo_book_container{
+  margin-left: 140px;
+  margin-top: 360px;
+  position: absolute;
+}
+.todo_openbook_img{
+  width: 20px;
+  position: absolute;
+ 
+  margin-left:90px;
+}
+
+.todo__unlist{
+  margin-top:300px;
+  margin-left: 240px;
+  position: absolute;
+}
+.todo__list{
+  color: #6f7878;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  margin-top: 7px;
+  list-style: none;
+}
+.todo__arrow{
+  width: 8px;
+  height: 8px;
+}
+.todo__timeplant{
+  position: absolute;
+  width:100px;
+  margin-top: 180px;
+  margin-left: 330px;
+  filter: drop-shadow(3px 5px 3px rgb(185, 185, 185));
 }
