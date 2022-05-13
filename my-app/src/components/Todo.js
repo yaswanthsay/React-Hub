@@ -40,7 +40,7 @@ function Todo() {
                 <li><p className='todo__list'>IT'S THE TIME TO WRITE IT DOWN.</p></li>
             </ul>
             </div>
-            <Fade duration={3500}>
+            <Fade >
                 <div className='todo'>
                     <h3 className='todo__title'>React Hub Todo</h3>
                     <input type='text' name='text' placeholder='Type new todos...' className='todo__input' value={toDos} onChange={(e) => setToDos(e.target.value)} />
@@ -63,6 +63,12 @@ function Todo() {
                         }
                     </div>
                 </div>
+            </Fade>
+            <Fade>
+            <div className='todo__right'>
+                <h5>NOTE IT, DO IT</h5>
+                <p className='todo_right_para'>We are including the TO DO page in React Hub.<br/>We are strongly recommending to use To do page daily.<br/>It will help you to complete your task accurately.</p>
+            </div>
             </Fade>
         </div>
     )

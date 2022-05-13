@@ -1502,10 +1502,10 @@
   display: flex;
 }
 .todo{
-padding-top: 10px;
+  padding-top: 10px;
   height: 500px;
   width: 415px;
-  margin-left:50px;
+  margin-left:85px;
   box-shadow:3px 3px 7px 1px rgb(198, 198, 198);
   border: 1px solid rgb(221, 221, 221);
 }
@@ -1613,4 +1613,13 @@ padding-top: 10px;
 }
 .todo_para_list{
   margin-top: 150px;
+}
+.todo__right{
+ margin-left: 90px;
+ margin-top: 260px;
+}
+.todo_right_para{
+  color: rgb(166, 166, 166);
+  font-size: 14px;
+  font-family: 'Playfair';
 }
