@@ -1499,15 +1499,14 @@
   height: 100%;
   padding-bottom: 50px;
   padding-top: 15px;
+  display: flex;
 }
 .todo{
 padding-top: 10px;
-  height: 600px;
-  width: 515px;
-  margin-left: 650px;
+  height: 500px;
+  width: 415px;
+  margin-left:50px;
   box-shadow:3px 3px 7px 1px rgb(198, 198, 198);
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
   border: 1px solid rgb(221, 221, 221);
 }
 .todo__title{
@@ -1520,7 +1519,7 @@ padding-top: 10px;
 .todo__input{
   margin-left:72px;
   margin-top: 30px;
-  width: 300px;
+  width: 200px;
   height:42px;
   text-indent: 13px;
   border: 1px;
@@ -1538,8 +1537,8 @@ padding-top: 10px;
 }
 .todo__space{
   border-radius:15px ;
-  height: 300px;
-  width: 370px;
+  height: 200px;
+  width: 270px;
   margin-left: 70px;
   margin-top: 40px;
   border: 0.5px solid rgb(174, 174, 174);
@@ -1561,7 +1560,6 @@ padding-top: 10px;
   display: flex;
   margin-left: 20px;
   margin-top: 16px;
-
 }
 .todo__delete{
   width: 10px;
@@ -1577,49 +1575,23 @@ padding-top: 10px;
   margin-left: 280px;
   cursor: pointer;
 }
-.todo_pen_container{
-  margin-left:230px;
-  margin-top: 307px;
-  position: absolute;
-}
 .todo_pen_img{
   width: 20px;
-  position: absolute;
-
-}
-.todo_clock_container{
-  margin-top:335px;
-  position: absolute;
-  margin-left:200px;
 }
 .todo_clock_img{
   width: 20px;
-  position: absolute;
-  margin-left:30px;
-}
-.todo_book_container{
-  margin-left: 140px;
-  margin-top: 360px;
-  position: absolute;
 }
 .todo_openbook_img{
   width: 20px;
-  position: absolute;
- 
-  margin-left:90px;
 }
-
-.todo__unlist{
-  margin-top:300px;
-  margin-left: 240px;
-  position: absolute;
+.todo__container ul li{
+  list-style: none;
 }
 .todo__list{
   color: #6f7878;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Poppins';
   font-weight: 700;
-  margin-top: 7px;
   list-style: none;
 }
 .todo__arrow{
@@ -1627,9 +1599,18 @@ padding-top: 10px;
   height: 8px;
 }
 .todo__timeplant{
-  position: absolute;
-  width:100px;
-  margin-top: 180px;
-  margin-left: 330px;
+  width:90px;
+  height: 90px;
+  margin-left: 90px;
   filter: drop-shadow(3px 5px 3px rgb(185, 185, 185));
+}
+.todo_img_list{
+  margin-left:90px;
+  margin-top: 233px;
+}
+.todo_img_list ul li{
+ margin-top: 6px;
+}
+.todo_para_list{
+  margin-top: 150px;
 }
