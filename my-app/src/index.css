@@ -1487,14 +1487,15 @@
   height: 100%;
 }
 .todo__container{
-  height: 100vh;
+  height: 100%;
 }
 .todo{
   border: 1px solid black;
   height: 560px;
   width: 515px;
   margin-left: 450px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   box-shadow: 2px 2px 2px 2px rgb(212, 212, 212);
 }
 .todo__title{
@@ -1511,7 +1512,8 @@
   height:42px;
   text-indent: 13px;
   border: 1px;
-  border-bottom: 1px solid rgb(203, 203, 203);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);
   border-radius: 8px;
 }
 .todo_add_btn{
