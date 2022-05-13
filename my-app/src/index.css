@@ -1504,8 +1504,8 @@
 .todo{
   padding-top: 10px;
   height: 500px;
-  width: 415px;
-  margin-left:85px;
+  width: 368px;
+  margin-left:45px;
   box-shadow:3px 3px 7px 1px rgb(198, 198, 198);
   border: 1px solid rgb(221, 221, 221);
 }
@@ -1517,7 +1517,7 @@
   font-weight: 400;
 }
 .todo__input{
-  margin-left:72px;
+  margin-left:53px;
   margin-top: 30px;
   width: 200px;
   height:42px;
@@ -1539,7 +1539,7 @@
   border-radius:15px ;
   height: 200px;
   width: 270px;
-  margin-left: 70px;
+  margin-left:48px;
   margin-top: 40px;
   border: 0.5px solid rgb(174, 174, 174);
    box-shadow: 1px 1px 3px gray inset;
@@ -1565,14 +1565,14 @@
   width: 10px;
   height: 10px;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 220px;
   cursor: pointer;
 }
 .todo__pencil{
   width: 10px;
   height: 10px;
   position: absolute;
-  margin-left: 280px;
+  margin-left: 200px;
   cursor: pointer;
 }
 .todo_pen_img{
@@ -1605,7 +1605,7 @@
   filter: drop-shadow(3px 5px 3px rgb(185, 185, 185));
 }
 .todo_img_list{
-  margin-left:90px;
+  margin-left:60px;
   margin-top: 233px;
 }
 .todo_img_list ul li{
@@ -1614,11 +1614,11 @@
 .todo_para_list{
   margin-top: 150px;
 }
-.todo__right{
- margin-left: 90px;
- margin-top: 260px;
+.todo__left{
+ margin-left:135px;
+ margin-top: 210px;
 }
-.todo_right_para{
+.todo_left_para{
   color: rgb(166, 166, 166);
   font-size: 14px;
   font-family: 'Playfair';
