@@ -794,6 +794,9 @@
   justify-content: center;
   background-color: rgb(247, 247, 247);
 }
+.intro:hover{
+   background-color: white;
+}
 
 .intro__title {
   color: rgb(0, 0, 0);
@@ -1403,6 +1406,8 @@
   margin-top: 50px;
   margin-left: 180px;
 }
+
+
 .work__para{
   margin-left: 170px;
   color: gray;
@@ -1539,6 +1544,7 @@
   margin-top: 40px;
   border: 0.5px solid rgb(174, 174, 174);
    box-shadow: 1px 1px 3px gray inset;
+   overflow: scroll;
 }
 .todo_items_title{
  margin-top: -6px;

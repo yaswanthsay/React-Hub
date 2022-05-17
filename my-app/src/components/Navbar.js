@@ -16,13 +16,15 @@ function Navbar() {
   const [services,setServices] = useState(true)
   const [menu,setMenu] = useState(true)
 
+
   const dark = useSelector(state => state.mode.value)
 
   const dispatch = useDispatch()
 
   return (
     <div className={dark ? "nav__container dark" : "nav__container"} id='nav__containerId'>
-      <div className={dark ? "nav dark" : "nav"}>       
+      <div className={dark ? "nav dark" : "nav"} >   
+        
        {menu ? <img src='/menu4.png' alt='' className='nav_menu_icon' onClick={()=>setMenu(false)}/>:""}
        {menu? "" : <img src='/close.png' alt='' className='close' onClick={()=>setMenu(true)}/>}
         {menu ? "" : <Menu/> }

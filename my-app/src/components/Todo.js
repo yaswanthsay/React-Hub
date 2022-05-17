@@ -1,4 +1,4 @@
-import  { React,useEffect,useState } from 'react'
+import { React, useEffect, useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce'
 
@@ -16,16 +16,16 @@ function Todo() {
     }
     const handleEdit = (event, id) => {
         event.stopPropagation();
-        setToDos(localStorage.getItem("toDos",))
+        setToDos(localStorage.getItem("toDos"))
     }
 
-    useEffect(()=>{
-       localStorage.setItem("toDos",JSON.stringify(toDos))
-    },[toDos])
+    useEffect(() => {
+        localStorage.setItem("toDos", JSON.stringify(toDos))
+    }, [toDos])
 
-    useEffect(()=>{
-        localStorage.setItem("toDoLists",JSON.stringify(toDoLists))
-     },[toDoLists])
+    useEffect(() => {
+        localStorage.setItem("toDoLists", JSON.stringify(toDoLists))
+    }, [toDoLists])
 
 
     return (
