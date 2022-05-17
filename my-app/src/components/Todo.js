@@ -3,21 +3,23 @@ import { useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce'
 
+
 function Todo() {
 
 
-    const [toDos, setToDos] = useState()
+    const [toDos, setToDos] = useState([])
     const [toDoLists, setToDoLists] = useState([])
 
 
     const handleDelete = (event, noteId) => {
         event.stopPropagation();
-        setToDoLists(prevState => prevState.filter((obj, unknownid) => unknownid !== noteId))
+        setToDoLists(prevState => prevState.filter((obj, knownid) => knownid !== noteId))
     }
-    const handleEdit = (event, noteId) => {
+    const handleEdit = (event,text) => {
         event.stopPropagation();
-        setToDos(prevState => prevState.filter)
     }
+
+
     return (
         <div className='todo__container'>
            
