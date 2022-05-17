@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Login from './components/Login'
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -18,8 +18,8 @@ function App() {
         <Route path='*' element={<Home />} />
         <Route path='/new' element={<New />} />
         <Route path='/help' element={<Help/>}/>
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
+        <Route exact path='/login' element={<Login />} />
+        <Route exact path='/signup' element={ <Signup />} />
         <Route path='/todo' element={<Todo/>}/>
         <Route path='/blog' element={<Blog />} />
         <Route path='/productpage/:slug' element={<ProductPage />} />

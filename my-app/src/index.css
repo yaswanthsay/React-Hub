@@ -239,7 +239,6 @@
   width: 100%;
   padding-left: 550px;
   padding-top: 50px;
-
 }
 
 .signup__heading {
@@ -953,7 +952,7 @@
 }
 
 .menu{
-  animation-duration: 1.0s;
+  animation-duration: 2s;
   animation-name: slidein;
 }
 
