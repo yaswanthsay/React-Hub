@@ -22,7 +22,8 @@ function Login() {
           <JackInTheBox>
         <input className='login__btn' type='submit' value='LOGIN'/>
         </JackInTheBox>
-        <NavLink to='/signup' className='new_account_link'><p className='new__account'>Create new account?</p></NavLink>
+        {/* <NavLink to='/signup' className='new_account_link'><p className='new__account'>Create new account?</p></NavLink> */}
+      <NavLink to='/signup' className='new_accnt_link'><p className='new__accnt'>Create new account?</p></NavLink>
         </div>
       </form>
     </div>

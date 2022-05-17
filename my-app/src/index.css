@@ -255,19 +255,6 @@
   color: rgb(99, 169, 219);
 }
 
-.new__account {
-  font-size: 13px;
-  cursor: pointer;
-  margin-top: -20px;
-  margin-left: 20px;
-}
-
-.already__account {
-  font-size: 11px;
-  margin-top: -20px;
-  margin-left: 20px;
-  cursor: pointer;
-}
 
 .forgot__password {
   font-size: 13px;
@@ -275,16 +262,25 @@
   width: 500px;
 }
 
-.new_account_link {
+.new_accnt_link{
   text-decoration: none;
   color: black;
-  cursor: pointer;
+  margin-top: -18px;
+  margin-left: 23px;
+  position: absolute;
 }
-
-.already_account_link {
+.new__accnt{
+   font-size: 13px;
+}
+.already_accnt_link{
   text-decoration: none;
   color: black;
-  cursor: pointer;
+  margin-top: -18px;
+  margin-left: 17px;
+  position: absolute;
+}
+.already__accnt{
+  font-size: 12px;
 }
 
 .main__container {
@@ -957,7 +953,7 @@
 }
 
 .menu{
-  animation-duration: 3s;
+  animation-duration: 1.0s;
   animation-name: slidein;
 }
 
