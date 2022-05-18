@@ -53,7 +53,7 @@ function Todo() {
                                     <div className='todo_title_close'>
                                         <div className='todo_edit_delete'>
                                             <img src='/delete.png' alt='' className='todo__delete' onClick={(event) => handleDelete(event, id)} />
-                                            <img src='/pencil.png' alt='' className='todo__pencil' onClick={(event) => handleEdit(event, id)} />
+                                            {/* <img src='/pencil.png' alt='' className='todo__pencil' onClick={(event) => handleEdit(event, id)} /> */}
                                         </div>
                                        <input type='checkbox' className="todo__check" name='crossline' id='crossline' value='check' onChange={handleChange} />
                                        <p className= "todo_items_title">{note.text}</p>

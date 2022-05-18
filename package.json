@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "latest-version": "^6.0.0"
+    "latest-version": "^6.0.0",
+    "node": "^17.7.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
   }
 }
