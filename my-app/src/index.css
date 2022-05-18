@@ -878,7 +878,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
- margin-left: -2px;
+  margin-left: -2px;
 }
 .goal__typical{
   position: absolute;
@@ -886,20 +886,21 @@
   color: white;
   margin-top: 447px;
   margin-left: 172px;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 700;
   border: 1px solid;
   height: 35.5px;
   padding-left:15px;
+
 }
 
 .goal__title {
   color: rgb(25, 160, 209);
-  font-weight: 600;
+  font-weight: 100;
   margin-left: 100px;
   margin-top: 180px;
   font-size: 45px;
-  font-family: 'Playfair';
+  
 }
 
 .goal__para {
@@ -1396,7 +1397,7 @@
 }
 .work__title{
   color: rgb(60, 157, 206);
-  font-weight: 600;
+  font-weight: 100;
   margin-left: 370px;
 }
 .work__left{

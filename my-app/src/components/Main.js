@@ -26,13 +26,12 @@ function Main() {
     ))
 
    
-
    
     return (
         <div className={dark ? "main dark" : "main"}>
             <div className='main__container'>
                 <div className='main__intro'>
-                    <Intro />
+                  <Intro />
                 </div>
                 <div className='main__second'>
                     <div className='main__right'>
