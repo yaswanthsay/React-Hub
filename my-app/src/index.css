@@ -745,6 +745,8 @@
 }
 .product:hover{
   height: 310px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
 }
 .product__img{
   width: 80px;
@@ -757,11 +759,14 @@
 .product__title{
   font-weight: 600;
   color: rgb(67, 67, 67);
-
 }
 .product__para{
  text-align: start;
  margin-top: 20px;
+}
+.product__link{
+  text-decoration: none;
+  color: black;
 }
 .product__page {
   height: 100vh;
