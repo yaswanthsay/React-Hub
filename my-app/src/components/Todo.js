@@ -9,6 +9,7 @@ function Todo() {
     const [toDos, setToDos] = useState([])
     const [toDoLists, setToDoLists] = useState([])
     const [isChecked, setIsChecked] = useState(false)
+    const [isScroll,setIsScroll] = useState(false)
 
 
 
@@ -45,7 +46,7 @@ function Todo() {
                     <Fade bottom>
                         <button className='todo_add_btn' type='submit' onClick={() => setToDoLists([...toDoLists, { id: Date.now(), text: toDos, status: false }])}>Add</button>
                     </Fade>
-                    <div className='todo__space'>
+                    <div className='todo__space' onScroll={()=>setIsScroll(true)}>
                         {toDoLists.map((note, id) => {
                             return (
                                 <div key={note.id} className='todo__items'>
@@ -55,7 +56,7 @@ function Todo() {
                                             <img src='/pencil.png' alt='' className='todo__pencil' onClick={(event) => handleEdit(event, id)} />
                                         </div>
                                        <input type='checkbox' className="todo__check" name='crossline' id='crossline' value='check' onChange={handleChange} />
-                                       <p className={isChecked ? "todo_items_title checked" : "todo_items_title"}>{note.text}</p>
+                                       <p className= "todo_items_title">{note.text}</p>
                                     </div>
                                 </div>
                             )
