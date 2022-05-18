@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from 'react'
+import { React, useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce'
 
@@ -8,25 +8,23 @@ function Todo() {
 
     const [toDos, setToDos] = useState([])
     const [toDoLists, setToDoLists] = useState([])
+    const [isChecked, setIsChecked] = useState(false)
+
 
 
     const handleDelete = (event, noteId) => {
         event.stopPropagation();
         setToDoLists(prevState => prevState.filter((obj, knownid) => knownid !== noteId))
     }
-    const handleEdit = (event, id) => {
+
+
+    const handleEdit = (event) => {
         event.stopPropagation();
-        setToDos(localStorage.getItem("toDos"))
     }
 
-    useEffect(() => {
-        localStorage.setItem("toDos", JSON.stringify(toDos))
-    }, [toDos])
-
-    useEffect(() => {
-        localStorage.setItem("toDoLists", JSON.stringify(toDoLists))
-    }, [toDoLists])
-
+    const handleChange = () => {
+        setIsChecked(!isChecked)
+    }
 
     return (
         <div className='todo__container'>
@@ -52,9 +50,12 @@ function Todo() {
                             return (
                                 <div key={note.id} className='todo__items'>
                                     <div className='todo_title_close'>
-                                        <p className='todo_items_title'>{note.text}</p>
-                                        <img src='/pencil.png' alt='' className='todo__pencil' onClick={(event) => handleEdit(event, id)} />
-                                        <img src='/delete.png' alt='' className='todo__delete' onClick={(event) => handleDelete(event, id)} />
+                                        <div className='todo_edit_delete'>
+                                            <img src='/delete.png' alt='' className='todo__delete' onClick={(event) => handleDelete(event, id)} />
+                                            <img src='/pencil.png' alt='' className='todo__pencil' onClick={(event) => handleEdit(event, id)} />
+                                        </div>
+                                       <input type='checkbox' className="todo__check" name='crossline' id='crossline' value='check' onChange={handleChange} />
+                                       <p className={isChecked ? "todo_items_title checked" : "todo_items_title"}>{note.text}</p>
                                     </div>
                                 </div>
                             )
