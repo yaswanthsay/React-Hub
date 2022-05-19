@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Login from './components/Login'
 import Footer from './components/Footer'
 import Home from './components/Home'
@@ -10,6 +10,7 @@ import New from './components/New'
 import ProductPage from './pages/ProductPage'
 import Start from './components/Start'
 import Help from './components/Help'
+import TrendingPage from './pages/TrendingPage'
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/todo' element={<Todo/>}/>
         <Route path='/blog' element={<Blog />} />
         <Route path='/productpage/:description' element={<ProductPage />} />
+        <Route path='/trendingpage/:title' element={<TrendingPage/>}/>
         <Route path='/start' element={<Start/>}/>
       </Routes>
      <Footer />

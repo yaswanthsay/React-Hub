@@ -744,9 +744,10 @@
   height: 300px;
 }
 .product:hover{
-  height: 310px;
+  height: 301px;
   background-color: rgb(247, 247, 247);
   padding: 10px;
+  color: black;
 }
 .product__img{
   width: 80px;
@@ -776,6 +777,12 @@
   border: 1px ;
   height: 300px;
 }
+.trending:hover{
+  height: 301px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+  color: black;
+}
 .trending__img{
   width: 80px;
   filter: drop-shadow(5px 5px 5px rgb(105, 105, 105));
@@ -787,10 +794,16 @@
 .trending__para{
   text-align: start;
   margin-top: 20px;
+  
 }
 .trending__title{
   font-weight: 600;
   color: rgb(63, 63, 63);
+ 
+}
+.trending__link{
+  text-decoration: none;
+  color: black;
 }
 
 .intro {

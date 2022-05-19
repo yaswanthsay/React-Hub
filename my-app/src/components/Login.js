@@ -11,16 +11,13 @@ function Login() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => { setIsLogin(data) }
 
-  useEffect(() => {
-    localStorage.setItem("isLogin", JSON.stringify(isLogin))
-  }, [isLogin])
+
 
   useEffect(() => {
-    let localLogin = localStorage.getItem("isLogin")
-   alert(localLogin)
+    let localLogin = localStorage.getItem("localSignup")
+    alert(localLogin)
   }, [isLogin])
 
-  
 
 
   return (
@@ -35,7 +32,6 @@ function Login() {
           <JackInTheBox>
             <input className='login__btn' type='submit' value='LOGIN' />
           </JackInTheBox>
-          {/* <NavLink to='/signup' className='new_account_link'><p className='new__account'>Create new account?</p></NavLink> */}
           <NavLink to='/signup' className='new_accnt_link'><p className='new__accnt'>Create new account?</p></NavLink>
         </div>
       </form>

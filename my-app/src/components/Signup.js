@@ -9,19 +9,22 @@ function Signup() {
 
   const [isSignup, setIsSignup] = useState()
 
+  const[signedUp,setSignedUp] = useState(false)
+
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => { setIsSignup(data) }
 
 
   useEffect(() => {
-    localStorage.setItem("isSignup", JSON.stringify(isSignup))
+    let localSignup = localStorage.setItem("isSignup", JSON.stringify(isSignup))
+     alert(localSignup)
   }, [isSignup])
 
-  useEffect(() => {
-    let localSubmit = localStorage.getItem("isSubmit")
-    alert(localSubmit)
-  }, [isSignup])
+  // useEffect(() => {
+  //   let localSubmit = localStorage.getItem("isSubmit")
+  //   alert(localSubmit)
+  // }, [isSignup])
 
 
   return (
@@ -38,7 +41,7 @@ function Signup() {
         <div className='password__error'>{errors.password?.type === 'required' && "Password is required"}</div>
         <div>
           <JackInTheBox>
-            <input className='signup__btn' type='submit' value='SIGNUP' />
+           <input className='signup__btn' type='submit' value='SIGNUP' />
           </JackInTheBox>
           <NavLink to='/login' className='already_accnt_link'><p className='already__accnt'>Already have an account?</p></NavLink>
         </div>

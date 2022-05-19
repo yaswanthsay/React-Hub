@@ -33,9 +33,11 @@
 
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import { NavLink } from 'react-router-dom';
 
 function Trending(props) {
   return (
+    <NavLink to={`/trendingpage/${props.title}`} className='trending__link'>
     <div className='trending'>
       <Fade bottom>
       <img src={props.url} alt='' className='trending__img'/>
@@ -43,6 +45,7 @@ function Trending(props) {
       <p className='trending__para'>{props.description}</p>
       <h4 className='trending__title'>{props.title}</h4>
     </div>
+    </NavLink>
   )
 }
 
