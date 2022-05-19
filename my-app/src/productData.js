@@ -4,7 +4,7 @@ const productData = [
         "slug":"React JS",
         "title":"React JS",
         "url":"/webreact.png",
-        "description":"React is the popular JS library in current scenario."
+        "description":"React is the popular JS library in current scenario.",
     },
     {
         "id":"2",

@@ -7,21 +7,21 @@ import { useState, useEffect } from 'react'
 
 function Signup() {
 
-  const [isSubmit, setIsSubmit] = useState()
+  const [isSignup, setIsSignup] = useState()
 
   const { register, handleSubmit, formState: { errors } } = useForm();
 
-  const onSubmit = (data) => { setIsSubmit(data) }
+  const onSubmit = (data) => { setIsSignup(data) }
 
 
   useEffect(() => {
-    localStorage.setItem("isSubmit", JSON.stringify(isSubmit))
-  }, [isSubmit])
+    localStorage.setItem("isSignup", JSON.stringify(isSignup))
+  }, [isSignup])
 
   useEffect(() => {
     let localSubmit = localStorage.getItem("isSubmit")
-    console.log(localSubmit)
-  }, [isSubmit])
+    alert(localSubmit)
+  }, [isSignup])
 
 
   return (

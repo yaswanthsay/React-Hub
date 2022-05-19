@@ -22,7 +22,7 @@ function App() {
         <Route exact path='/signup' element={ <Signup />} />
         <Route path='/todo' element={<Todo/>}/>
         <Route path='/blog' element={<Blog />} />
-        <Route path='/productpage/:slug' element={<ProductPage />} />
+        <Route path='/productpage/:description' element={<ProductPage />} />
         <Route path='/start' element={<Start/>}/>
       </Routes>
      <Footer />
